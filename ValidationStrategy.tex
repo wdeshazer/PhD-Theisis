@@ -1,0 +1,54 @@
+\section{Validation}\label{sec:ValidationStrategy}
+
+Dimensional Analysis \cite{Buckingham1914} is a powerful tool for understanding and interpreting key characteristics in the experimental data. Similitude, the science of characterizing a physical system using a scale invariant parameter space, has been a workhorse in aerodynamics, especially wind tunnel experiments, and is required by the ITER Physics Expert Group for Confinement and Transport for plasma test facilities to demonstrate ITER relevant experiments \cite{Connor1977}. The advantage of similitude in an experimental context is that a tokamak of smaller scale can achieve plasma dynamically similar conditions to ITER. A subtlety that is often overlooked is the value of dimensional analysis when conducting a model validation. The intent of our research is to apply the techniques of Buckingham $\Pi$ Theorem to identify the dimensionless groups embedded in our set of equations, reduce the experimental data according to these dimensionless groups and do a model comparison against this data in this non-dimensional space.
+
+\subsection{Dimensional Analysis} \label{sub:DimensionalAnalysis}
+
+The objective of dimensional analysis is to represent the physics of a system in a scale invariant parameter space. The methodology to reduce a system in such a way had a history of being utilized in earlier work, was formalized by \citeauthor{Buckingham1914} in his paper \citetitle{Buckingham1914} in \citeyear{Buckingham1914} \cite{Buckingham1914}. The methodology to produce the scale invariant parameters, known as dimensionless groups, is outlined in \prettyref{subsub:BuckinghamPiTheorem}.
+
+The result of applying the Buckingham approach is a set of dimensionless groups 
+
+\subsubsection{Dimensionless Groups and the Buckingham Theorem} \label{subsub:BuckinghamPiTheorem}
+
+\subsubsection{Application Similarity} \label{subsub:Similarity}
+
+\subsection{}
+
+
+The model must be validated against a variety of plasma modes. The parameters of interest include both carbon and electron densities and temperatures, as well as rotation velocities/frequencies. Some of the important modes to consider include:
+
+\begin{itemize}
+	\item \gls{L-Mode},
+	\item \gls{H-Mode},
+	\item \gls{SH-Mode},
+	\item \ac{RMP}, and
+	\item \gls{NT-Mode}
+\end{itemize}
+
+Test data showing various profiles have been presented to illustrate some of the differences in profile behavior that needs to be modeled. 
+Carbon and electron temperature are illustrated in \prettyref{fig:TestDataCarbonTemp} and \prettyref{fig:TestDataElectronTemp}, respectively, while their densities are shown in \prettyref{fig:TestDataCarbonDensity} and \prettyref{fig:TestDataElectronDensity}, respectively. Finally, available rotation data for several shots are presented in \prettyref{fig:TestDataToroidalRotation}. Some shots show steep gradients while others less so. Rather than presenting a detailed comparison of features in the presented data set, what is relevant for this research is that hope of this methodology is to successfully reproduce curvatures and gradients exhibited in the test data.
+
+\begin{table}
+	\centering
+	\caption{Some Selected Shots for Validation}
+	\begin{tabular}{|c|c|c|}
+		\hline
+		Shot Type & Shot Number & Time (ms) \\
+		\hline
+		L-Mode & 144567 & 4000 \\
+		\hline
+		H-Mode & 161409 & 5000 \\
+		\hline
+		SH-Mode & 171322 & 1800 \\
+		\hline
+		RMP & 161409 & 5600 \\
+		\hline
+		NT-Mode & 179990 & 1400 \\
+		\hline
+	\end{tabular}
+	\label{tab:SelectedShots}
+\end{table}
+
+\clearpage
+
+\input{TestDataFigures}

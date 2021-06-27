@@ -1,0 +1,50 @@
+\subsection{Conservation of Particles} \label{sub:ParticleConservation}
+
+The general multidimensional form of the continuity equation in \cref{eqn:GeneralContinuity}
+%
+\begin{equation}
+	\symbf{\nabla} \cdot n_j \symbf{v}_j = S_j
+	\label{eqn:GeneralContinuity}
+\end{equation}
+%
+reduces to the one-dimensional non-linear \ac{ODE} shown in \cref{eqn:Continuity} and \cref{eqn:Source} when one performs a \ac{FSA}. The reason is that the poloidal component of the flux, $\langle \left(\symbf{\nabla} \cdot n_j \symbf{v}_j \right)_\theta \rangle = 0$ identically and $\langle \left(\symbf{\nabla} \cdot n_j \symbf{v}_j \right)_\phi \rangle = 0$ by axisymmetry \cite{Stacey2004}.
+
+\begin{equation}
+	\cfrac{1}{r} \diffpfunc{ r \func{\Gamma_{rj}}{r}}{r} =
+	S_{nj} -\alpha \diffpfunc{ \FrIOL{j} }{r} \flux{j}
+	-\beta z_{k} \diffpfunc{ \FrIOL{k} }{r} \flux{k}
+	\label{eqn:Continuity}
+\end{equation}
+%
+where,
+%
+\begin{equation}
+	S_{nj} \equiv \func{N_\mathrm{nbj}}{r} \left( 1\ -\hat{\alpha } \func{f^\mathrm{iol}_\mathrm{nbi}}{r} \right)+ \func{n_{e}}{r} \nu _{\mathrm{ion}_j} (r)
+	\label{eqn:Source}
+\end{equation}
+
+The left side of \cref{eqn:Continuity} expresses the change in flux, $\Gamma_{rj}$ of the primary ion is driven by the source terms on the right. First, $S_{nj}$, is the positive contributions due to \ac{NBI} and ionization. In \cref{eqn:Source}, $N_{nbj}$ is the rate of \ac{NBI} injection, which has been reduced by the fast \ac{IOL}, $f^\mathrm{iol}_\mathrm{nbi}$. The rate of neutral beam injection is based on a beam model that is described in \cref{sub:BeamModeling}. The second term, $\func{n_{e}}{r} \nu _{\mathrm{ion}_j} (r)$ is the ionization rate and is discussed in \cref{sub:NeutralTransport}. Lastly, in \cref{eqn:Continuity}, there are two terms for \ac{IOL}, $\FrIOL{j}$ for the primary ion, and $\FrIOL{k}$ for the impurity ion. They are the cumulative loss of ions through the mechanism of \ac{IOL}. They impact the conservation of particles through their differential contributions, $\diffp{}{r}$. These \ac{IOL} terms are detailed in \cref{sub:IOL}. The terms, $\alpha$ and $\beta$ are charge neutrality adjustment terms and will be a subject of consideration. There are three mechanisms by which the charge associated with lost primary ions can be compensated:
+
+\begin{enumerate}[label=(\roman*)]
+	\item A commensurate lost electrons implying $\left(\alpha=1, \beta=0\right)$ thus nullifying $\FrIOL{k}$, \label{item:NeutElectron}
+	\item A return current of thermalized ions from the \ac{SOL} (\gls{SOL}) implying $\left(\alpha=2, \beta=1\right)$, or \label{item:NeutImpurity}
+	\item No \ac{IOL} $\left(\alpha=0, \beta=0\right)$ \label{item:NeutNoIOL}
+\end{enumerate}
+
+\citeauthor{Stacey2017} conjectures that the most physically reasonable is \cref{item:NeutImpurity}, which we intend to explore.
+
+%\newcommand{\emath}[1]{\ensuremath{#1}}
+
+%\nomenclature{$r$}{Location along the minor radius}{L}{m}
+%\nomenclature{$\hat{\Gamma}_{rj}$}{Radial flux for primary ion j}{L}{dum}
+%\nomenclature{$S_n$}{Particle source}
+%\nomenclature{$F^{IOL}$}{Thermal Ion Orbit Loss fraction}
+%\nomenclature{$\alpha, \beta$}{Charge neutrality adjustment term}
+%\nomenclature{$f^{IOL}$}{Fast Ion Orbit Loss fraction}
+%\nomenclature{$z$}{Atomic Number}
+%\nomenclature{$N_{nb}$}{Fast Neutral Beam Source Rate}
+%\nomenclature{$\hat{\alpha}$}{description}
+%\nomenclature{$\nu_{ion}$}{Frequency of Ionization}
+%\nomenclature{$n$}{Species number density}
+%\nomenclature{$L_p^{-1}$}{Pressure Gradient Scale Length $\frac{1}{p} \diffp{p}{r}$ }
+%\nomenclature{$L_T^{-1}$}{Temperature Gradient Scale Length $\frac{1}{T} \diffp{T}{r}$ }

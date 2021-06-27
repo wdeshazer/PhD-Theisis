@@ -1,0 +1,24 @@
+\subsection{Pinch Diffusion} \label{sub:PinchDiffusion}
+
+It is hoped that this research will culminate with an easy way to reincorporate the \vxb and \ac{IOL} physics into traditional diffusion models. In \cite{Stacey2019}, \citeauthor{Stacey2019} provides a diffusion-like model that has a $\Gamma^{Pinch}$ term that retains the \vxb and \ac{IOL}. $\Gamma^{Pinch}$, which appears in \cref{eqn:PinchDiffusion}, is given by the expression in \cref{eqn:PinchDiffusionFlux}.
+
+\begin{equation}
+	\diffp*{\left( D_{jj} \diffp{n_j}r \right)  }r - \diffp*{\left( D_{jk} \diffp{n_k}r \right)  }r - \diffp*{\left( D_{jj} \frac{n_j}{T_j}\diffp{T_j}r \right)  }r -\diffp*{\left( D_{jk} \frac{n_j}{T_k}\diffp{T_k}r \right)  }r + \diffp{\Gamma_{rj}^{pinch}}r = S_j
+	\label{eqn:PinchDiffusion}
+\end{equation}
+
+\begin{equation}
+	\Gamma_{rj}^{pinch} \equiv - \cfrac{n_j E_\phi^A}{B_\theta} - \cfrac{M_{\phi j}}{e_j B_\theta} + 
+	\cfrac{n_j m_j \left( \nu_{jk} + \nu_{dj} \right) }{e_j B_\theta} 
+	\left( \cfrac{E_r}{B_\theta} + \cfrac{B_\phi}{B_\theta} V_{\phi j} \right)
+	- n_j m_j \nu_{jk} V_{\phi k}	
+	\label{eqn:PinchDiffusionFlux}
+\end{equation}
+%
+The diffusion coefficients embed the drag frequency, $\nu_{dj}$, and the inter-species collisional frequency $\nu_{jk}$.
+%
+\begin{equation}
+		D_{jj} \equiv \cfrac{m_j T_j \left( \nu_{dj} + \nu_{jk} \right) }{\left(  e_j B_\theta \right)^2}, \quad
+		D_{jk} \equiv \cfrac{m_j T_j \nu_{jk} }{ e_j e_k B_\theta^2}
+		\label{eqn:PinchDiffusionCoefficients}
+\end{equation}

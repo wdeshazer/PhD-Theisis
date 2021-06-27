@@ -1,0 +1,33 @@
+\section{Theory} \label{sec:Theory}
+
+The fundamental parts of the predictive model are the conservation of particles (\cref{sub:ParticleConservation}), momentum (\cref{sub:MomentumConservation}), and energy (\cref{sub:EnergyConservation}), the conduction closure (\cref{sub:ConductionClosure}) and the ideal gas law (\cref{sub:IdealGasLaw}). Within each of the conservation equations there is provision for the removal of particles, momentum, and energy due to \ac{IOL}, which is described in \cref{sub:IOL}. \ac{IOL} calculation requires input from the equilibrium reconstruction. Therefore, a short overview is provided in \cref{subsub:EFIT}.  The primary source of particles, momentum, and energy considered is beam input and therefore, details on the beam modeling are covered in \cref{sub:BeamModeling}. Finally, the pinch diffusion model is described, because there is a desire to recast the conservation equations in the form of a pinch diffusion equation. Therefore, the pinch diffusion model will be discussed in \cref{sub:PinchDiffusion}
+
+\input{Theory/ConservationOfParticles}
+
+%\input{Theory/IonOrbitLoss}
+%
+%\input{Theory/ConservationOfMomentum}
+%
+%\input{Theory/ConservationOfEnergy}
+%
+%\input{Theory/ConductionClosure}
+%
+%\input{Theory/EquilibriumReconstruction}
+%
+%\input{Theory/BeamModeling}
+%
+%%\input{Theory/Ionization}
+%
+%\subsection{Ideal Gas Law}\label{sub:IdealGasLaw}
+%
+%The relationship between the pressure calculated in the momentum equation and the density that initializes the iteration, there is an implied temperature which is given by the ideal gas law
+%\begin{equation}
+%	P = n\, T
+%	\label{eqn:IdealGasLaw}
+%\end{equation}
+%Based on the iteration strategy chosen (\cref{sec:ComputationalModeling}), this temperature must align with the temperature implied by conservation of energy.
+%
+%\input{Theory/PinchDiffusion}
+%
+%\input{Theory/NeutralTransport}
+

@@ -1,0 +1,91 @@
+% Nomenclature adjustments
+\usepackage{etoolbox, ragged2e}
+%\renewcommand\nomgroup[1]{%
+%	\item[\bfseries
+%	\ifstrequal{#1}{P}{Parameters}{%
+%		\ifstrequal{#1}{S}{Subscripts}{%
+%			\ifstrequal{#1}{C}{Constants}{}}}%
+%	]}
+
+\setlength\nomlabelwidth{2cm}
+
+\patchcmd{\thenomenclature}
+{\leftmargin\labelwidth}
+{\leftmargin\labelwidth\itemindent 2em }
+{}{}
+
+\newcommand{\DimensUnits}[2]{%
+	\quad
+	\parbox[t]{16em}{\RaggedRight #1}%
+	\quad
+	\makebox[4em][l]{#2}%
+}
+
+\newcommand{\insertnomheaders}{%
+	\item[\bfseries Symbol]
+	\nomdescr{\textbf{Quantity}}\DimensUnits{\textbf{Dimension}}{\textbf{Unit}}%
+}
+\renewcommand{\nomname}{Nomenclature and Dimensions}
+
+\renewcommand\nomgroup[1]{\item[\large\bfseries]\insertnomheaders}
+
+\newcommand{\nomdescr}[1]{\parbox[t]{6cm}{\RaggedRight #1}}
+\newcommand{\symdef}[4]{\nomenclature{#1}{\nomdescr{#2}\DimensUnits{#3}{#4}}}
+
+%% Nomenclature adjustments
+%
+%% This will add the units
+%%----------------------------------------------
+%\newcommand{\nomunit}[1]{%
+%	\renewcommand{\nomentryend}{\hspace*{\fill}#1}}
+%%----------------------------------------------
+%% \setmathfont{Cambria}
+
+
+\renewcommand{\CancelColor}{\color{blue}} %change cancel color to red
+
+\setlength{\parskip}{1em}
+
+
+\setcounter{section}{0} 
+
+\setcounter{secnumdepth}{4}
+
+\crefname{section}{Section}{Sections}
+\crefname{subsection}{Section}{Sections}
+\crefname{susubsection}{Section}{Sections}
+\crefname{paragraph}{Section}{Sections}
+\crefname{equation}{Equation}{Equations}
+\crefname{figure}{Figure}{Figures}
+\crefname{table}{Table}{Tables}
+\crefname{listing}{Listing}{Listings}
+\newrefformat{eq}{Equation \ref{#1} on page \pageref{#1}}
+
+
+\def \figpath {"Images/"}
+
+\def \diffpfunc #1#2{\diffp*{\left(\vphantom{\diffp*{}#2}#1\right)}#2}
+%\diffp*{\left( \vphantom{\diffp*{}#2}#2 #1 \right)}#1 \right)
+\def \func #1#2{#1\left(\vphantom{#1} #2\right)}
+\def \FrIOL #1{\func{ F_{#1\vphantom{j}}^\mathrm{iol} }{r}} % Using Phantom J to ensure parens for both j and k are same size
+\def \flux #1{\func{ \Gamma_{r#1}}{r} }
+
+% Inserts \clearpage before \begin{appendices}
+%\BeforeBeginEnvironment{appendices}{\clearpage}
+% Inserts \clearpage after \end{appendices}
+%\AfterEndEnvironment{appendices}{\clearpage}
+
+% Inserts \clearpage before every \section within appendices environment
+\AtBeginEnvironment{appendices}{\pretocmd{\section}{\clearpage}{}{}}{}
+\newcommand\mytodo[1]{\textcolor{red}{#1}}
+
+
+\newcommand{\csubfloat}[2][]{%
+	\makebox[0pt]{\subfloat[#1]{#2}}%
+}
+\newcommand{\centerhfill}[1][\quad]{\hspace{\stretch{0.5}}#1\hspace{\stretch{0.5}}}
+
+\newcommand*{\vxb}{\ensuremath{\vec{V} \times \vec{B}}\xspace}
+
+
+

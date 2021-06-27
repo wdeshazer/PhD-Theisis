@@ -1,0 +1,43 @@
+\subsubsection{Poloidal} \label{subsub:MCPoloidal}
+
+The poloidal momentum conservation is described by \cref{eqn:ConservationOfMomentumPoloidal}. Most of the terms in the poloidal momentum balance are the same as the toroidal momentum balance, which is explained in \cref{subsub:MCToroidal}, but the appropriate changes for the orthogonal Lorentz contributions. The third time on the right of \cref{eqn:ConservationOfMomentumPoloidal}, however, is unique. It results from the gyro-viscous considerations that are negligible in a straight cylindrical plasma, as modeled by Braginskii[\cite{Braginskii1965}], but are significant in a toroidally confined plasma, due to the curvature of the field lines \cite{Stacey2020}. The coefficient, $K$, is the Stacey-Sigmar coefficients which can be found in \citetitle{StaceySigmar1985} \cite{StaceySigmar1985}.
+
+\begin{multline} \label{eqn:ConservationOfMomentumPoloidal}
+	\begin{bmatrix}
+		n_j m_j \left( \nu_{jk} + \nu^{\theta}_{dj} \right) & -n_j m_j \nu_{jk} \\
+		-n_k m_k \nu_{kj}  & n_k m_k \left( \nu_{kj}+\nu^{\theta}_{dk} \right)
+	\end{bmatrix}
+	\begin{bmatrix}
+		\hat{V}_{\theta j}\left(r\right) \\
+		\hat{V}_{\theta k}\left(r\right)								
+	\end{bmatrix} =
+	\begin{bmatrix}
+		n_j e_j \\
+		n_k e_k
+	\end{bmatrix} E^A_{\theta} +
+	\begin{bmatrix}
+		e_j B_\phi & 0 \\
+		0            & e_k B_\phi
+	\end{bmatrix}
+	\begin{bmatrix}
+		\Gamma_{rj} \left(r\right) \\
+		\Gamma_{rk} \left(r\right)
+	\end{bmatrix} + \\
+	\cfrac{B_{\phi}}{B^2}
+	\begin{bmatrix}
+		\nu^\theta_{dj} \cfrac{K_j}{e_j} & 0 \\
+		0 & \nu^\theta_{dk} \cfrac{K_k}{e_k}
+	\end{bmatrix}
+	\begin{bmatrix}
+		L^{-1}_{T_j} \\
+		L^{-1}_{T_k}
+	\end{bmatrix} +
+	\begin{bmatrix}
+		M_{\theta j}^\mathrm{nbi}\left(r\right) \\
+		M_{\theta k}^\mathrm{nbi}\left(r\right)
+	\end{bmatrix} -
+	\begin{bmatrix}
+		M_{\theta j}^\mathrm{iol}\left(r\right) \\
+		M_{\theta k}^\mathrm{iol}\left(r\right)
+	\end{bmatrix}
+\end{multline}

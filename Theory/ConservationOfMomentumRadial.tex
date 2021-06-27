@@ -1,0 +1,65 @@
+\subsubsection{Radial} \label{subsub:MCRadial}
+The radial momentum equates the normal force of pressure gradient with the orthogonal contribution of the \vxb. A technique to recapture the pressure is to utilize the gradient scale length (\cref{eqn:GradScalePressure}). It is an empirically derived parameter that is determined from a form of the equations that we are solving \cite{Stacey2004a} and represents a fundamental property in the plasma edge. In the radial direction, the \vxb terms that contribute to the force balance are the $e V_\theta \, B_\varphi$ and the $e$
+
+\begin{equation}
+	L_p^{-1} \equiv = \cfrac{1}{p} \diffp{p}r
+	\label{eqn:GradScalePressure}
+\end{equation}
+
+\begin{equation}
+	\begin{bmatrix}
+		p_j L^{-1}_{p_j} \\
+		p_k L^{-1}_{p_k}
+	\end{bmatrix} =
+	\begin{bmatrix}
+		-\cfrac{1}{1+\cfrac{z_j}{z_k} \cfrac{n_j}{n_k}} & \cfrac{1}{1+\cfrac{z_k}{z_j} \cfrac{n_k}{n_j}} \\
+		\cfrac{1}{1+\cfrac{z_k}{z_k} \cfrac{n_j}{n_k}} & -\cfrac{1}{\cfrac{n_k}{n_j} \cfrac{z_k}{z_j}+1}
+	\end{bmatrix}^{-1} 
+	\begin{bmatrix}
+		\cfrac{n_j z_j}{1+\cfrac{n_j}{n_k} \cfrac{m_j}{m_k}} & \cfrac{n_j z_j}{1+\cfrac{n_j}{n_k} \cfrac{m_j}{m_k}} \\
+		\cfrac{n_k z_k}{1+\cfrac{n_k}{n_j} \cfrac{m_k}{m_j}} & \cfrac{n_j z_j}{1+\cfrac{n_k}{n_j} \cfrac{m_k}{m_j}}
+	\end{bmatrix} 
+	\begin{bmatrix}
+		e B_\varphi
+		\begin{bmatrix}
+			V_{\theta j} \\
+			V_{\theta k}
+		\end{bmatrix} -
+		e B_\theta
+		\begin{bmatrix}
+			V_{\varphi j} \\
+			V_{\varphi k}
+		\end{bmatrix}
+	\end{bmatrix}
+	\label{eqn:ConservationOfMomentumRadial}
+\end{equation} 
+
+
+%\begin{multline}
+%	\begin{bmatrix}
+%		-\cfrac{1}{1+\cfrac{z_j}{z_k} \cfrac{n_j}{n_k}} & \cfrac{1}{1+\cfrac{z_k}{z_j} \cfrac{n_k}{n_j}} \\
+%		\cfrac{1}{1+\cfrac{z_k}{z_k} \cfrac{n_j}{n_k}} & -\cfrac{1}{\cfrac{n_k}{n_j} \cfrac{z_k}{z_j}+1}
+%	\end{bmatrix} 
+%	\begin{bmatrix}
+%		p_j L^{-1}_{p_j} \\
+%		p_k L^{-1}_{p_k}
+%	\end{bmatrix} = \\		
+%	\begin{bmatrix}
+%		\cfrac{n_j e z_j}{1+\cfrac{n_j}{n_k} \cfrac{m_j}{m_k}} & \cfrac{n_j e z_j}{1+\cfrac{n_j}{n_k} \cfrac{m_j}{m_k}} \\
+%		\cfrac{n_k e z_k}{1+\cfrac{n_k}{n_j} \cfrac{m_k}{m_j}} & \cfrac{n_j e z_j}{1+\cfrac{n_k}{n_j} \cfrac{m_k}{m_j}}
+%	\end{bmatrix} 
+%	B_\phi 
+%	\begin{bmatrix}
+%		\hat{V}_{\theta_j} \\
+%		\hat{V}_{\theta_k}
+%	\end{bmatrix} -
+%	\begin{bmatrix}
+%		\cfrac{n_j e z_j}{1+\cfrac{n_j}{n_k} \cfrac{m_j}{m_k}} & \cfrac{n_j e z_j}{1+\cfrac{n_j}{n_k} \cfrac{m_j}{m_k}} \\
+%		\cfrac{n_k e z_k}{1+\cfrac{n_k}{n_j} \cfrac{m_k}{m_j}} & \cfrac{n_j e z_j}{1+\cfrac{n_k}{n_j} \cfrac{m_k}{m_j}}
+%	\end{bmatrix} 
+%	B_\theta 
+%	\begin{bmatrix}
+%		\hat{V}_{\phi_j} \\
+%		\hat{V}_{\phi_k}
+%	\end{bmatrix}
+%\end{multline} \label{eqn:ConservationOfMomentumRadial}

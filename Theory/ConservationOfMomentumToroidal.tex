@@ -1,0 +1,40 @@
+\subsubsection{Toroidal} \label{subsub:MCToroidal}
+
+The toroidal momentum balance expressed in \cref{eqn:ConservationMomentumToroidal} equates the forces due to the fluid velocity, $V_\varphi$, with the force due to the toroidal electric field, $E_\varphi^A$, the Lorentz force associated with a radial flux, the momentum input of \ac{NBI} and finally the momentum loss due to \ac{IOL}. It is of some value to deconstruct several of the terms to gain an intuition for these terms.
+\begin{itemize}
+	\item The force associated with the fluid velocity arises from two physical considerations, collisional drag within the species expressed as a frequency, $\nu_{dj}$, and inter-species drag, $\nu_{jk}$. As an aside it helped the author to do a units analysis that this works to force per unit volume.
+	\item The electric field $E_\varphi^A$ is simply a result of current drive and is therefore an externally applied condition.
+	\item the $e\,B_\theta \Gamma$ term is a masked Lorentz force. The flux is motion of the charged ionized particles, which produce an orthogonal force as they move across a magnetic field line.
+	\item The momentum of the \ac{IOL} term is due to an instantaneous loss of particles. The model description is given in \cref{eqn:IOLCumulativeLossMomentum}
+\end{itemize}
+
+\begin{multline}  \label{eqn:ConservationMomentumToroidal}
+	\begin{bmatrix}
+		n_j m_j \left( \nu_{jk} + \nu^{\varphi}_{dj} \right) & -n_j m_j \nu_{jk} \\
+		-n_k m_k \nu_{kj}  & n_k m_k \left( \nu_{kj}+\nu^{\varphi}_{dk} \right)
+	\end{bmatrix}
+	\begin{bmatrix}
+		\hat{V}_{\varphi j}\left(r\right) \\
+		\hat{V}_{\varphi k}\left(r\right)								
+	\end{bmatrix} = \\
+	\begin{bmatrix}
+		n_j e_j \\
+		n_k e_k
+	\end{bmatrix} E^A_{\varphi} +
+	\begin{bmatrix}
+		e_j B_\theta & 0 \\
+		0            & e_k B_\theta
+	\end{bmatrix}
+	\begin{bmatrix}
+		\Gamma_{rj} \left(r\right) \\
+		\Gamma_{rk} \left(r\right)
+	\end{bmatrix} +
+	\begin{bmatrix}
+		M_{\varphi j}^\mathrm{nbi}\left(r\right) \\
+		M_{\varphi k}^\mathrm{nbi}\left(r\right)
+	\end{bmatrix} -
+	\begin{bmatrix}
+		M_{\varphi j}^\mathrm{iol}\left(r\right) \\
+		M_{\varphi k}^\mathrm{iol}\left(r\right)
+	\end{bmatrix}
+\end{multline}

@@ -1,0 +1,17 @@
+\subsection{Conduction Closure Equations} \label{sub:ConductionClosure}
+As is always the case with the first three moment equations, there is an issue of closure. For this model, we utilize the ion (\cref{eqn:ConductionIon}) and electron conduction (\cref{eqn:ConductionElectron}) closure equations. Both are based on a Fick's law model of heat conduction with a conduction coefficient $\chi$. The radial gradient of heat is proportional to the total heat on sources on the right side. Both models share a total heat term $Q_j, Q_e$ which has been adjusted by a convection like term $\frac{5}{2}T\,\Gamma$, which represents the energy associated with the particles that have been lost. The only unique feature is that the ion conduction equation has a term for the total viscous heat loss and the heat stored in the form of rotation.
+
+
+\subsubsection{Ion Conduction} \label{subsub:ConductionClosureIon}
+
+\begin{multline} \label{eqn:ConductionIon}
+	-n_i \chi_j \left( \cfrac{1}{r} \diffp*{\left( \vphantom{\diffp*{}r}r T_j\left( r \right) \right)}r \right) \equiv	n_j \chi_j T_j(r) L^{-1}_{T_j} = 	q_j\left( r \right) = Q_j \left( r \right) - \cfrac{5}{2} T_j \left( r \right) \Gamma_{rj} \left( r \right) - Q_{\mathrm{vis}_j}(r) - Q_{\mathrm{rot}_j}(r)
+\end{multline}
+
+\subsubsection{Electron Conduction} \label{subsub:ConductionClosureElectron}
+
+\begin{equation} \label{eqn:ConductionElectron}
+	-n_e \chi_e \left( \cfrac{1}{r} \diffpfunc{r T_e\left( r \right) }{r} \right) \equiv
+	n_e \chi_e \func{T_e}{r} L^{-1}_{T_e} = 
+	\func{q_e}{r} = \func{Q_e}{r} - \cfrac{5}{2} \func{T_e}{r} \func{\Gamma_{re}}{r}
+\end{equation}

@@ -1,0 +1,24 @@
+\subsection{Conservation of Energy} \label{sub:EnergyConservation}
+
+There are conservation considerations for both the primary ion \cref{eqn:EnergyIon} and electron \cref{eqn:EnergyElectron}. Both equations are roughly the same. They are both one-dimensional non-linear radial partial differential equations. There is consideration for beam heating($q_{nbi}$), fast ion orbit loss ($e_{nbi}^{iol}$), and ion-electron ($q_{re}$)  and ion-impurity ($q_{jk}$) cross heating through scattering.  Unique aspects of each are discussed in their subsections. It should be noted that other heat sources can be included, but these are considered the primary heat mechanisms at the moment.
+
+\subsubsection{Ion Radial Heat Flux} \label{subsub:IonRadialHeatFlux}
+
+A unique aspect to the ion radial heat flux (\cref{eqn:EnergyIon}) is that there is consideration for charge exchange, $\langle\sigma v \rangle$ between impurity ions and the primary ion. Also, only the ions experience thermal \ac{IOL}. 
+
+\begin{align} \label{eqn:EnergyIon}
+	\cfrac{1}{r}\cfrac{\partial \left(r\hat{Q}_{rj}(r)\right)}{\partial r} = \, q_j^\mathrm{nbi}(r) \left( 1 - \hat{\alpha} e_\mathrm{nbi}^\mathrm{iol}(r) \right) 
+	&- q_{je}(r) - q_{jk} \nonumber \\
+	&- n_j(r)n_{oj}(r) \langle \sigma v \rangle_\mathrm{cx} \left(\hat{T}_j(r)-T_{oj}\right) -
+	\cfrac{\partial E_j^\mathrm{iol}(r)}{\partial r} \hat{Q}_{rj}(r)
+\end{align}
+
+\subsubsection{Electron Radial Heat Flux} \label{subsub:ElectronRadialHeatFlux}
+
+For the electron heat equation, there is unique consideration for the radiation emissivity, $L$. 
+
+\begin{multline} \label{eqn:EnergyElectron}
+	\cfrac{1}{r}\cfrac{\partial \left(r\hat{Q}_{re}(r)\right)}{\partial r} = q_e^\mathrm{nbi}(r) - q_{je}(r) - q_{ke}  \\
+	- n_j(r)n_{oj}(r) \langle \sigma v \rangle_\mathrm{ionj} E_\mathrm{ionj} -
+	n_k(r)n_{ok}(r) \langle \sigma v \rangle_\mathrm{ionk} E_\mathrm{ionk} - n_e n_j L_j(r) - n_e n_k L_k(r)
+\end{multline}
