@@ -1,0 +1,17 @@
+[0] Config.pm:311> INFO - This is Biber 2.16
+[0] Config.pm:314> INFO - Logfile is 'aux-files\Thesis.blg'
+[97] biber-MSWIN64:340> INFO - === 
+[129] Biber.pm:415> INFO - Reading 'aux-files\Thesis.bcf'
+[235] Biber.pm:952> INFO - Found 31 citekeys in bib section 0
+[248] Biber.pm:4340> INFO - Processing section 0
+[259] Biber.pm:4531> INFO - Looking for bibtex format file 'Plasma-Transport-Code.bib' for section 0
+[497] bibtex.pm:1689> INFO - LaTeX decoding ...
+[586] bibtex.pm:1494> INFO - Found BibTeX data source 'C:/Users/earld/Dropbox/LatexRoot/bibtex/bib/Plasma-Transport-Code.bib'
+[750] Utils.pm:395> WARN - BibTeX subsystem: C:\Users\earld\AppData\Local\Temp\biber_tmp_Stel\75fc603ee286b082a521d65cd2041044_23052.utf8, line 6, warning: 172 characters of junk seen at toplevel
+[785] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[785] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[785] Biber.pm:4168> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'en-US'
+[785] Biber.pm:4174> INFO - No sort tailoring available for locale 'en-US'
+[815] bbl.pm:654> INFO - Writing 'aux-files\Thesis.bbl' with encoding 'UTF-8'
+[834] bbl.pm:757> INFO - Output to aux-files\Thesis.bbl
+[835] Biber.pm:128> INFO - WARNINGS: 1

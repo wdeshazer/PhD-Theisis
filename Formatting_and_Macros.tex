@@ -1,11 +1,11 @@
 % Nomenclature adjustments
 \usepackage{etoolbox, ragged2e}
-%\renewcommand\nomgroup[1]{%
-%	\item[\bfseries
-%	\ifstrequal{#1}{P}{Parameters}{%
-%		\ifstrequal{#1}{S}{Subscripts}{%
-%			\ifstrequal{#1}{C}{Constants}{}}}%
-%	]}
+\renewcommand\nomgroup[1]{%
+	\item[\bfseries
+	\ifstrequal{#1}{P}{Parameters}{%
+		\ifstrequal{#1}{S}{Subscripts}{%
+			\ifstrequal{#1}{C}{Constants}{}}}%
+	]}
 
 \setlength\nomlabelwidth{2cm}
 
@@ -32,15 +32,16 @@
 \newcommand{\nomdescr}[1]{\parbox[t]{6cm}{\RaggedRight #1}}
 \newcommand{\symdef}[4]{\nomenclature{#1}{\nomdescr{#2}\DimensUnits{#3}{#4}}}
 
-%% Nomenclature adjustments
-%
-%% This will add the units
-%%----------------------------------------------
-%\newcommand{\nomunit}[1]{%
-%	\renewcommand{\nomentryend}{\hspace*{\fill}#1}}
-%%----------------------------------------------
-%% \setmathfont{Cambria}
+% Nomenclature adjustments
 
+% This will add the units
+%----------------------------------------------
+\newcommand{\nomunit}[1]{%
+	\renewcommand{\nomentryend}{\hspace*{\fill}#1}}
+%----------------------------------------------
+% \setmathfont{Cambria}
+
+%\newcommand{\emath}[1]{\ensuremath{#1}}
 
 \renewcommand{\CancelColor}{\color{blue}} %change cancel color to red
 

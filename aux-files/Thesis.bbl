@@ -1,0 +1,1499 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.1 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nty/global//global/global}
+    \entry{Braginskii1965}{article}{}
+      \name{author}{1}{}{%
+        {{hash=27ce40c5772d2c337819648acc9db801}{%
+           family={Braginskii},
+           familyi={B\bibinitperiod},
+           given={S\bibnamedelima I},
+           giveni={S\bibinitperiod\bibinitdelim I\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {New York}%
+      }
+      \list{publisher}{1}{%
+        {New York, Consultants Bureau.}%
+      }
+      \strng{namehash}{27ce40c5772d2c337819648acc9db801}
+      \strng{fullhash}{27ce40c5772d2c337819648acc9db801}
+      \strng{bibnamehash}{27ce40c5772d2c337819648acc9db801}
+      \strng{authorbibnamehash}{27ce40c5772d2c337819648acc9db801}
+      \strng{authornamehash}{27ce40c5772d2c337819648acc9db801}
+      \strng{authorfullhash}{27ce40c5772d2c337819648acc9db801}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{chapter}{205}
+      \field{journaltitle}{Reviews of plasma physics.}
+      \field{title}{{Transport Processes in a Plasma}}
+      \field{volume}{2}
+      \field{year}{1965}
+      \field{pages}{17}
+      \range{pages}{1}
+      \verb{file}
+      \verb :C$\backslash$:/Users/earld/AppData/Local/Mendeley Ltd./Mendeley Desktop/Downloaded/Braginskii - 1965 - Transport Processes in a Plasma.pdf:pdf
+      \endverb
+      \keyw{23,Plasma (Ionized gases)}
+    \endentry
+    \entry{Buckingham1914}{article}{}
+      \name{author}{1}{}{%
+        {{hash=161875f5fa3c5369e09bb5ab7b00c651}{%
+           family={Buckingham},
+           familyi={B\bibinitperiod},
+           given={E},
+           giveni={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{161875f5fa3c5369e09bb5ab7b00c651}
+      \strng{fullhash}{161875f5fa3c5369e09bb5ab7b00c651}
+      \strng{bibnamehash}{161875f5fa3c5369e09bb5ab7b00c651}
+      \strng{authorbibnamehash}{161875f5fa3c5369e09bb5ab7b00c651}
+      \strng{authornamehash}{161875f5fa3c5369e09bb5ab7b00c651}
+      \strng{authorfullhash}{161875f5fa3c5369e09bb5ab7b00c651}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Physical Review}
+      \field{number}{4}
+      \field{title}{{On Physically Similar Systems; Illustrations Of The Use Of Dimensional Equations}}
+      \field{volume}{4}
+      \field{year}{1914}
+      \field{pages}{345\bibrangedash 376}
+      \range{pages}{32}
+      \verb{file}
+      \verb :C$\backslash$:/Users/earld/AppData/Local/Mendeley Ltd./Mendeley Desktop/Downloaded/Buckingham - 1914 - On Physically Similar Systems Illustrations Of The Use Of Dimensional Equations.pdf:pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://babel.hathitrust.org/cgi/pt?id=uc1.31210014450082{\&}view=1up{\&}seq=905
+      \endverb
+      \verb{url}
+      \verb https://babel.hathitrust.org/cgi/pt?id=uc1.31210014450082%7B%5C&%7Dview=1up%7B%5C&%7Dseq=905
+      \endverb
+    \endentry
+    \entry{Connor1977}{article}{}
+      \name{author}{2}{}{%
+        {{hash=a859fa7bcbbe4461ffea7ea947de1aa8}{%
+           family={Connor},
+           familyi={C\bibinitperiod},
+           given={J.\bibnamedelimi W.},
+           giveni={J\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+        {{hash=290ab0e9d696f29c46a2932f6826dda6}{%
+           family={Taylor},
+           familyi={T\bibinitperiod},
+           given={J.B.},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{63445209f7cde89df007f11291048337}
+      \strng{fullhash}{63445209f7cde89df007f11291048337}
+      \strng{bibnamehash}{63445209f7cde89df007f11291048337}
+      \strng{authorbibnamehash}{63445209f7cde89df007f11291048337}
+      \strng{authornamehash}{63445209f7cde89df007f11291048337}
+      \strng{authorfullhash}{63445209f7cde89df007f11291048337}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Scaling laws for plasma energy confinement must be invariant under any transformationwhich leaves the basic plasma equations themselves invariant. Hence, constraints can be placed on the scalinglaws even though the calculation of energy loss may be quite intractable. These constraints.are derived forseveral plasma models and shown to be characteristic of the model. Hence, in addition to reducing thenumber of parameters which have to be obtained empirically, these results could delineate which plasmamodels are appropriate for the calculation of losses. They show that the empirical scaling laws at presentproposed for tokamaks are incompatible with many conventional plasma models.}
+      \field{journaltitle}{Nuclear Fusion}
+      \field{title}{{Scaling laws for plasma confinement}}
+      \field{volume}{17}
+      \field{year}{1977}
+      \field{pages}{1047\bibrangedash 1055}
+      \range{pages}{9}
+      \verb{file}
+      \verb :C$\backslash$:/Users/earld/AppData/Local/Mendeley Ltd./Mendeley Desktop/Downloaded/Connor, Taylor - 1977 - Scaling laws for plasma confinement.pdf:pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1088/0029-5515/17/5/015
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1088/0029-5515/17/5/015
+      \endverb
+    \endentry
+    \entry{Floyd2012}{article}{}
+      \name{author}{2}{}{%
+        {{hash=5d32dd46feb8fc757fa0690d6d37aa35}{%
+           family={Floyd},
+           familyi={F\bibinitperiod},
+           given={John-Patrick},
+           giveni={J\bibinithyphendelim P\bibinitperiod}}}%
+        {{hash=65481f348b9982a9e6ce4c4ec2ae7911}{%
+           family={Stacey},
+           familyi={S\bibinitperiod},
+           given={W\bibnamedelima M},
+           giveni={W\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Taylor {\&} Francis}%
+      }
+      \strng{namehash}{9e2431632ecd940efb7235dcb4300340}
+      \strng{fullhash}{9e2431632ecd940efb7235dcb4300340}
+      \strng{bibnamehash}{9e2431632ecd940efb7235dcb4300340}
+      \strng{authorbibnamehash}{9e2431632ecd940efb7235dcb4300340}
+      \strng{authornamehash}{9e2431632ecd940efb7235dcb4300340}
+      \strng{authorfullhash}{9e2431632ecd940efb7235dcb4300340}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{AbstractThe presence of a large pinch velocity in the edge pedestal of high-confinement (H-mode) tokamak plasmas implies that particle transport in the plasma edge must be treated by a generalized pinch-diffusion theory, rather than a pure diffusion theory. An investigation of extending the numerical solution methodology of the standard diffusion theory to the solution of the generalized pinch-diffusion theory has been carried out. It is found that in the edge pedestal, where the inward pinch velocity is large in H-mode plasmas, a finer mesh spacing will be required than is necessary for similar accuracy farther inward, where the pinch velocity diminishes. An expression for the numerical error in various finite-differencing algorithms is presented.}
+      \field{annotation}{doi: 10.13182/FST12-A13535}
+      \field{issn}{1536-1055}
+      \field{journaltitle}{Fusion Science and Technology}
+      \field{number}{3}
+      \field{title}{{Numerical Investigation of the Generalized Pinch-Diffusion Equations in the Edge Pedestal}}
+      \field{volume}{61}
+      \field{year}{2012}
+      \field{pages}{227\bibrangedash 235}
+      \range{pages}{9}
+      \verb{doi}
+      \verb 10.13182/FST12-A13535
+      \endverb
+      \verb{file}
+      \verb :C$\backslash$:/Users/earld/AppData/Local/Mendeley Ltd./Mendeley Desktop/Downloaded/Floyd, Stacey - 2012 - Numerical Investigation of the Generalized Pinch-Diffusion Equations in the Edge Pedestal.pdf:pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.13182/FST12-A13535
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.13182/FST12-A13535
+      \endverb
+    \endentry
+    \entry{Janev1989}{article}{}
+      \name{author}{3}{}{%
+        {{hash=b9512ac981478bd8e5398cd8fd0d1838}{%
+           family={Janev},
+           familyi={J\bibinitperiod},
+           given={R.\bibnamedelimi K.},
+           giveni={R\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{hash=c50c395341876caf18f509802da6932d}{%
+           family={Boley},
+           familyi={B\bibinitperiod},
+           given={C.\bibnamedelimi D.},
+           giveni={C\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=64291222eb890c11a42f287c0a903157}{%
+           family={Post},
+           familyi={P\bibinitperiod},
+           given={D.\bibnamedelimi E.},
+           giveni={D\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+      }
+      \strng{namehash}{ba72fcbebd7357f5f4d0efe1193a97f0}
+      \strng{fullhash}{ba72fcbebd7357f5f4d0efe1193a97f0}
+      \strng{bibnamehash}{ba72fcbebd7357f5f4d0efe1193a97f0}
+      \strng{authorbibnamehash}{ba72fcbebd7357f5f4d0efe1193a97f0}
+      \strng{authornamehash}{ba72fcbebd7357f5f4d0efe1193a97f0}
+      \strng{authorfullhash}{ba72fcbebd7357f5f4d0efe1193a97f0}
+      \field{sortinit}{J}
+      \field{sortinithash}{b2f54a9081ace9966a7cb9413811edb4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The efficiency of neutral beam heating and current drive depends crucially on the deposition of the energy and momentum of the beam in the plasma. This deposition is determined by the atomic processes involved in the stopping (or effective ionization) of the neutral beam atoms. These processes have been studied in detail for the energy range from 10 keV/u to 10 MeV/u. The processes considered include both the ground state and the excited state of the beam atoms, thus allowing for the multistep ionization of the beam in collisions with the plasma constituents and impurities. The effective beam stopping cross-section has been calculated for a wide variety of beam and plasma parameters. The atomic database necessary for these calculations has been documented using the best data available at present. The stopping cross-section data are also given in terms of a convenient analytic fit, which can be used either in computer calculations or for simpler analytic estimates of neutral beam penetration. {©} 1989 IOP Publishing Ltd.}
+      \field{issn}{17414326}
+      \field{journaltitle}{Nuclear Fusion}
+      \field{number}{12}
+      \field{title}{{Penetration of energetic neutral beams into fusion plasmas}}
+      \field{volume}{29}
+      \field{year}{1989}
+      \field{pages}{2125\bibrangedash 2140}
+      \range{pages}{16}
+      \verb{doi}
+      \verb 10.1088/0029-5515/29/12/006
+      \endverb
+      \verb{file}
+      \verb :C$\backslash$:/Users/earld/AppData/Local/Mendeley Ltd./Mendeley Desktop/Downloaded/Janev, Boley, Post - 1989 - Penetration of energetic neutral beams into fusion plasmas.pdf:pdf
+      \endverb
+    \endentry
+    \entry{Kelley1995}{article}{}
+      \name{author}{1}{}{%
+        {{hash=3d532b856acace7f6ebce869029cc249}{%
+           family={Kelley},
+           familyi={K\bibinitperiod},
+           given={C.\bibnamedelimi T.},
+           giveni={C\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+      }
+      \strng{namehash}{3d532b856acace7f6ebce869029cc249}
+      \strng{fullhash}{3d532b856acace7f6ebce869029cc249}
+      \strng{bibnamehash}{3d532b856acace7f6ebce869029cc249}
+      \strng{authorbibnamehash}{3d532b856acace7f6ebce869029cc249}
+      \strng{authornamehash}{3d532b856acace7f6ebce869029cc249}
+      \strng{authorfullhash}{3d532b856acace7f6ebce869029cc249}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{This is the first book to be published on nonlinear equations since the mid-1980s.}
+      \field{journaltitle}{Iterative Methods for Linear and Nonlinear Equations}
+      \field{title}{{1. Basic Concepts and Stationary Iterative Methods}}
+      \field{year}{1995}
+      \field{pages}{3\bibrangedash 10}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1137/1.9781611970944.ch1
+      \endverb
+      \verb{file}
+      \verb :C$\backslash$:/Users/earld/AppData/Local/Mendeley Ltd./Mendeley Desktop/Downloaded/Kelley - 1995 - 1. Basic Concepts and Stationary Iterative Methods.pdf:pdf
+      \endverb
+    \endentry
+    \entry{Knolker2020}{article}{}
+      \name{author}{15}{}{%
+        {{hash=4a3e6b720794fda4c089a5401563933b}{%
+           family={Knolker},
+           familyi={K\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=893b4e1c104429bd708a324be1fbe2b1}{%
+           family={Snyder},
+           familyi={S\bibinitperiod},
+           given={P.\bibnamedelimi B.},
+           giveni={P\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+        {{hash=c9e30865c50a21dc3ef66b2041f2cb9c}{%
+           family={Evans},
+           familyi={E\bibinitperiod},
+           given={T.\bibnamedelimi E.},
+           giveni={T\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{hash=be778e1648e407ebf4901c093fef7c54}{%
+           family={Wilks},
+           familyi={W\bibinitperiod},
+           given={T.},
+           giveni={T\bibinitperiod}}}%
+        {{hash=b1be441574539780e6e61604b4684b09}{%
+           family={Eldon},
+           familyi={E\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod}}}%
+        {{hash=ab44b0047ebaf74bce796215a6ddac57}{%
+           family={Grierson},
+           familyi={G\bibinitperiod},
+           given={B.},
+           giveni={B\bibinitperiod}}}%
+        {{hash=cdfd824665c943e0f82282ad66505c30}{%
+           family={Jaervinen},
+           familyi={J\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=bc6383e749c0e9a6bc909282568c3dd3}{%
+           family={Jian},
+           familyi={J\bibinitperiod},
+           given={X.},
+           giveni={X\bibinitperiod}}}%
+        {{hash=04f318541874e64cb894f590d24f5669}{%
+           family={Laggner},
+           familyi={L\bibinitperiod},
+           given={F.},
+           giveni={F\bibinitperiod}}}%
+        {{hash=9d29e94fbee7356214c6ed56faa9e0e4}{%
+           family={McClenaghan},
+           familyi={M\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=5e22ce71ee31f7ce41aa94c923dce06f}{%
+           family={McLean},
+           familyi={M\bibinitperiod},
+           given={A.\bibnamedelimi G.},
+           giveni={A\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+        {{hash=f0d49f0ca2998d9118da9164df6c3709}{%
+           family={Osborne},
+           familyi={O\bibinitperiod},
+           given={T.},
+           giveni={T\bibinitperiod}}}%
+        {{hash=a10ccac17fa6dab07135d4d4819a9213}{%
+           family={Paz-Soldan},
+           familyi={P\bibinithyphendelim S\bibinitperiod},
+           given={C.},
+           giveni={C\bibinitperiod}}}%
+        {{hash=6ae7617c7110d740ce5f00a5bd01025b}{%
+           family={Scotti},
+           familyi={S\bibinitperiod},
+           given={F.},
+           giveni={F\bibinitperiod}}}%
+        {{hash=384a5d91e00871bf0254ab2e05920403}{%
+           family={Solomon},
+           familyi={S\bibinitperiod},
+           given={W.},
+           giveni={W\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {AIP Publishing LLC}%
+      }
+      \strng{namehash}{4a12ba088a7ca32be84352241c5b9547}
+      \strng{fullhash}{eaa61f59306e971ee756314da685699b}
+      \strng{bibnamehash}{4a12ba088a7ca32be84352241c5b9547}
+      \strng{authorbibnamehash}{4a12ba088a7ca32be84352241c5b9547}
+      \strng{authornamehash}{4a12ba088a7ca32be84352241c5b9547}
+      \strng{authorfullhash}{eaa61f59306e971ee756314da685699b}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Access to Super H-mode is demonstrated for moderately shaped plasmas in agreement with EPED [Snyder et al., Phys. Plasmas 16, 056118 (2009)] predictions. In particular, Super H-mode is realized in a DIII-D shape that is accessible to the JET tokamak. The reduced triangularity of the JET-compatible shape compared to previous Super H-mode plasma shapes does not prevent deep ascension into the so-called Super H-mode "channel."Operationally, access is enabled and optimized by delaying the neutral beam power injection and, thus, protracting the L-H transition. In highly shaped DIII-D plasmas, the injection of nitrogen sufficient for the establishment of a radiative divertor is shown to be possible during Super H-mode without pedestal degradation. Due to its increased stored energy and radiative divertor integration capabilities, Super H-mode is a promising candidate as operating regime for JET, ITER, and future fusion reactors.}
+      \field{issn}{10897674}
+      \field{journaltitle}{Physics of Plasmas}
+      \field{number}{10}
+      \field{title}{{Optimizing the Super H-mode pedestal to improve performance and facilitate divertor integration}}
+      \field{volume}{27}
+      \field{year}{2020}
+      \verb{doi}
+      \verb 10.1063/5.0011008
+      \endverb
+      \verb{file}
+      \verb :C$\backslash$:/Users/earld/AppData/Local/Mendeley Ltd./Mendeley Desktop/Downloaded/Knolker et al. - 2020 - Optimizing the Super H-mode pedestal to improve performance and facilitate divertor integration.pdf:pdf
+      \endverb
+    \endentry
+    \entry{Lao1990}{article}{}
+      \name{author}{7}{}{%
+        {{hash=edf11ede1161269eb1d5bcda5e0f5ee6}{%
+           family={Lao},
+           familyi={L\bibinitperiod},
+           given={L\bibnamedelima L},
+           giveni={L\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=138738ec6dd581bb1045ea323800fec9}{%
+           family={Ferron},
+           familyi={F\bibinitperiod},
+           given={J\bibnamedelima R},
+           giveni={J\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=ead4e2ba1ce55dd8fcbe894985bc6c00}{%
+           family={Groebner},
+           familyi={G\bibinitperiod},
+           given={R\bibnamedelima J},
+           giveni={R\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=d4e96d030307aea593b130b961742d15}{%
+           family={Howl},
+           familyi={H\bibinitperiod},
+           given={W},
+           giveni={W\bibinitperiod}}}%
+        {{hash=8f1341eed73f51fb89cf08d3bab630a0}{%
+           family={{St. John}},
+           familyi={S\bibinitperiod},
+           given={H},
+           giveni={H\bibinitperiod}}}%
+        {{hash=972a63e9aca05e31e020a8fd38597ff6}{%
+           family={Strait},
+           familyi={S\bibinitperiod},
+           given={E\bibnamedelima J},
+           giveni={E\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=f4d173f08463aeeffc3d1f47b132b4c4}{%
+           family={Taylor},
+           familyi={T\bibinitperiod},
+           given={T\bibnamedelima S},
+           giveni={T\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {IOP Publishing}%
+      }
+      \strng{namehash}{610a081d945d33c2fb75714722442f7a}
+      \strng{fullhash}{845cd0f5cb96a3a454d59388e3a57c82}
+      \strng{bibnamehash}{610a081d945d33c2fb75714722442f7a}
+      \strng{authorbibnamehash}{610a081d945d33c2fb75714722442f7a}
+      \strng{authornamehash}{610a081d945d33c2fb75714722442f7a}
+      \strng{authorfullhash}{845cd0f5cb96a3a454d59388e3a57c82}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{An efficient method is given for self-consistent reconstruction of the tokamak current profiles and their associated magnetic topology using the magnetohydrodynamic (MHD) equilibrium constraint from external magnetic measurements, kinetic profile measurements, internal poloidal magnetic field measurements, and topological information from soft X-ray (SXR) measurements. Illustrative examples for beam heated H-mode divertor discharges in the DIII-D tokamak are presented, using the experimentally measured kinetic profile information and external magnetic data from the existing diagnostics. Comparative reconstructions of the current profile using various combinations of diagnostics are given. Also presented is an alternative magnetic analysis method in which the MHD equilibrium is reconstructed using external magnetic data and a constraint on the edge pressure gradient. The results of a sensitivity study are given which show that the axial safety factor q(0) can be more accurately determined when additional information from internal poloidal magnetic measurements is used in conjunction with the external magnetic, kinetic and SXR topological data.}
+      \field{issn}{0029-5515}
+      \field{journaltitle}{Nuclear Fusion}
+      \field{number}{6}
+      \field{title}{{Equilibrium analysis of current profiles in tokamaks}}
+      \field{volume}{30}
+      \field{year}{1990}
+      \field{pages}{1035\bibrangedash 1049}
+      \range{pages}{15}
+      \verb{doi}
+      \verb 10.1088/0029-5515/30/6/006
+      \endverb
+      \verb{file}
+      \verb :C$\backslash$:/Users/earld/AppData/Local/Mendeley Ltd./Mendeley Desktop/Downloaded/Lao et al. - 1990 - Equilibrium analysis of current profiles in tokamaks.pdf:pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1088/0029-5515/30/6/006
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1088/0029-5515/30/6/006
+      \endverb
+    \endentry
+    \entry{Loarte2011}{report}{}
+      \name{author}{1}{}{%
+        {{hash=85a2a0d55e01f02262b456633c810334}{%
+           family={Loarte},
+           familyi={L\bibinitperiod},
+           given={A.;},
+           giveni={A\bibinitperiod},
+           prefix={et\bibnamedelima al},
+           prefixi={e\bibinitperiod\bibinitdelim a\bibinitperiod}}}%
+      }
+      \list{institution}{2}{%
+        {Plasma Science}%
+        {Fusion Center, MIT}%
+      }
+      \strng{namehash}{85a2a0d55e01f02262b456633c810334}
+      \strng{fullhash}{85a2a0d55e01f02262b456633c810334}
+      \strng{bibnamehash}{85a2a0d55e01f02262b456633c810334}
+      \strng{authorbibnamehash}{85a2a0d55e01f02262b456633c810334}
+      \strng{authornamehash}{85a2a0d55e01f02262b456633c810334}
+      \strng{authorfullhash}{85a2a0d55e01f02262b456633c810334}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Experiments in Alcator C-Mod in EDA H-modes with extrinsic impurity seeding (N2, Ne, Ar) have demonstrated a direct correlation between plasma energy confinement and edge power flow achieving values of H98 ≥ 1 for edge power flows only marginally exceeding the scaled power for access to H-mode confinement in these conditions. For lower Z impurity seeding (N2, Ne), plasmas with high energy confinement are obtained with a radiative power fraction of 85{\%} or larger and a reduction of the peak heat flux at the divertor by more than a factor of 5 compared to similar attached conditions. The H-mode plasmas thus achieved in Alcator C-Mod meet or exceed the requirements both in terms of divertor heat flux handling and energy confinement for ITER QDT = 10 operation and with an edge power flow only marginally above the H-mode threshold power (by 1.0 - 1.4) as expected in ITER.}
+      \field{number}{January}
+      \field{title}{{H-mode experiments in Alcator C-Mod and consequences for ITER Q DT = 10 operation High confinement / high radiated power H-mode experiments in Alcator C- Mod and consequences for ITER Q DT = 10 operation}}
+      \field{type}{techreport}
+      \field{year}{2011}
+      \verb{file}
+      \verb :C$\backslash$:/Users/earld/AppData/Local/Mendeley Ltd./Mendeley Desktop/Downloaded/Loarte - 2011 - H-mode experiments in Alcator C-Mod and consequences for ITER Q DT = 10 operation High confinement high radiated power.pdf:pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://dspace.mit.edu/bitstream/handle/1721.1/94396/10ja054{\_}full.pdf?sequence=1
+      \endverb
+      \verb{url}
+      \verb https://dspace.mit.edu/bitstream/handle/1721.1/94396/10ja054%7B%5C_%7Dfull.pdf?sequence=1
+      \endverb
+    \endentry
+    \entry{Mandrekas2003}{article}{}
+      \name{author}{5}{}{%
+        {{hash=23957f6e845732f6299f7fac41a38973}{%
+           family={Mandrekas},
+           familyi={M\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=c05eca47b3f7eb366c1ea7c2465e20bc}{%
+           family={Colchin},
+           familyi={C\bibinitperiod},
+           given={R.\bibnamedelimi J.},
+           giveni={R\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=65481f348b9982a9e6ce4c4ec2ae7911}{%
+           family={Stacey},
+           familyi={S\bibinitperiod},
+           given={W.\bibnamedelimi M.},
+           giveni={W\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=59d10f8a548ee180b28909fb783a76eb}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod}}}%
+        {{hash=d1ef8bee9e6c76f2044b96b4e2538477}{%
+           family={Owen},
+           familyi={O\bibinitperiod},
+           given={L.\bibnamedelimi W.},
+           giveni={L\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+      }
+      \strng{namehash}{f48a791ca509fa3d860cfa7c00277720}
+      \strng{fullhash}{fe0865ebddc8ce2a46113c002adcb289}
+      \strng{bibnamehash}{f48a791ca509fa3d860cfa7c00277720}
+      \strng{authorbibnamehash}{f48a791ca509fa3d860cfa7c00277720}
+      \strng{authornamehash}{f48a791ca509fa3d860cfa7c00277720}
+      \strng{authorfullhash}{fe0865ebddc8ce2a46113c002adcb289}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{00295515}
+      \field{journaltitle}{Nuclear Fusion}
+      \field{number}{5}
+      \field{title}{{Neutral transport analysis of recent DIII-D neutral density experiments}}
+      \field{volume}{43}
+      \field{year}{2003}
+      \field{pages}{314\bibrangedash 320}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.1088/0029-5515/43/5/303
+      \endverb
+      \verb{file}
+      \verb :C$\backslash$:/Users/earld/AppData/Local/Mendeley Ltd./Mendeley Desktop/Downloaded/Mandrekas et al. - 2003 - Neutral transport analysis of recent DIII-D neutral density experiments(2).pdf:pdf
+      \endverb
+    \endentry
+    \entry{Mandrekas1992}{article}{}
+      \name{author}{1}{}{%
+        {{hash=550beb47d670d289f58abad8e642e0c4}{%
+           family={Mandrekas},
+           familyi={M\bibinitperiod},
+           given={John},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{550beb47d670d289f58abad8e642e0c4}
+      \strng{fullhash}{550beb47d670d289f58abad8e642e0c4}
+      \strng{bibnamehash}{550beb47d670d289f58abad8e642e0c4}
+      \strng{authorbibnamehash}{550beb47d670d289f58abad8e642e0c4}
+      \strng{authornamehash}{550beb47d670d289f58abad8e642e0c4}
+      \strng{authorfullhash}{550beb47d670d289f58abad8e642e0c4}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{This report contains a description of the neutral beam heating and current drive module Beams, that was developed at Georgia Tech for the SUPERCODE, the new systems and operations code for the ITER EDA. The NB module calculates profiles of the neutral beam deposition, fast ion pressure, beam heating power, and neutral beam driven current density. It also computes global parameters such as current drive efficiencies, beam shinethrough, fast beam ion beta, and the fusion power and neutron production due to beam-plasma interactions. The most important consideration during the development of this module was to make it compute normally fast without compromising physical accuracy. We believe that through careful selection of physical models and optimized coding, these conflicting requirements have been largely met. As a result, the SUPERCODE has now the ability to perform self-consistent calculations involving NB heating and current drive. This capability is very important for the study of sub-ignited, hybrid, or steady-state ITER and post-TFIR reactor operating scenarios. It is also the first time that a systems code has had such capabilities, usually found only in 1-1/2D plasma transport codes.}
+      \field{title}{{Physics models and user ' s guide for the neutral beam module of the SuperCode}}
+      \field{year}{1992}
+      \field{pages}{23}
+      \range{pages}{1}
+      \verb{file}
+      \verb :C$\backslash$:/Users/earld/AppData/Local/Mendeley Ltd./Mendeley Desktop/Downloaded/Mandrekas - 1992 - Physics models and user ' s guide for the neutral beam module of the SuperCode.pdf:pdf
+      \endverb
+    \endentry
+    \entry{Marinoni2020}{article}{}
+      \name{author}{11}{}{%
+        {{hash=eacd3bd901f4a13a0da5db45e6730ef8}{%
+           family={Marinoni},
+           familyi={M\bibinitperiod},
+           given={A},
+           giveni={A\bibinitperiod}}}%
+        {{hash=fb7c106e357ee84c45af8c77611242af}{%
+           family={Austin},
+           familyi={A\bibinitperiod},
+           given={M\bibnamedelima E},
+           giveni={M\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{hash=9d2d669cc47dfb31c97af67f496ca853}{%
+           family={Barada},
+           familyi={B\bibinitperiod},
+           given={K},
+           giveni={K\bibinitperiod}}}%
+        {{hash=8e6104c72055c99481b7bbc0511e7ee0}{%
+           family={Petty},
+           familyi={P\bibinitperiod},
+           given={C\bibnamedelima C},
+           giveni={C\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=eaf1a3cc91583e5fd883755dc522d980}{%
+           family={Porkolab},
+           familyi={P\bibinitperiod},
+           given={M},
+           giveni={M\bibinitperiod}}}%
+        {{hash=7d48e8b28a1ed40957a812097d851c7b}{%
+           family={Saarelma},
+           familyi={S\bibinitperiod},
+           given={S},
+           giveni={S\bibinitperiod}}}%
+        {{hash=894d629af5661595ff3553e37824eaf9}{%
+           family={Schmitz},
+           familyi={S\bibinitperiod},
+           given={L},
+           giveni={L\bibinitperiod}}}%
+        {{hash=48949def9bbf5eac77cd15aa7b420f9f}{%
+           family={Sciortino},
+           familyi={S\bibinitperiod},
+           given={F},
+           giveni={F\bibinitperiod}}}%
+        {{hash=6ae7617c7110d740ce5f00a5bd01025b}{%
+           family={Scotti},
+           familyi={S\bibinitperiod},
+           given={F},
+           giveni={F\bibinitperiod}}}%
+        {{hash=394d641a0626e0504be74152c455899d}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={G},
+           giveni={G\bibinitperiod}}}%
+        {{hash=b78f87e857bc9b0b31da8953f33c55e3}{%
+           family={Yan},
+           familyi={Y\bibinitperiod},
+           given={Z},
+           giveni={Z\bibinitperiod}}}%
+      }
+      \strng{namehash}{ac6c0d5ecfe4bf53a97e66b106187aa3}
+      \strng{fullhash}{05b4b3c70b215ceb73891accabb63652}
+      \strng{bibnamehash}{ac6c0d5ecfe4bf53a97e66b106187aa3}
+      \strng{authorbibnamehash}{ac6c0d5ecfe4bf53a97e66b106187aa3}
+      \strng{authornamehash}{ac6c0d5ecfe4bf53a97e66b106187aa3}
+      \strng{authorfullhash}{05b4b3c70b215ceb73891accabb63652}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{number}{2007}
+      \field{title}{{Negative Triangularity plasmas on DIII-D : a novel approach to the core-edge integration problem}}
+      \field{volume}{510}
+      \field{year}{2020}
+      \field{pages}{115001}
+      \range{pages}{1}
+      \verb{file}
+      \verb :C$\backslash$:/Users/earld/AppData/Local/Mendeley Ltd./Mendeley Desktop/Downloaded/Marinoni et al. - 2020 - Negative Triangularity plasmas on DIII-D a novel approach to the core-edge integration problem.pdf:pdf
+      \endverb
+    \endentry
+    \entry{Medvedev2015}{article}{}
+      \name{author}{14}{}{%
+        {{hash=17503165e5079a5351ee6a11ad17fe23}{%
+           family={Medvedev},
+           familyi={M\bibinitperiod},
+           given={S.\bibnamedelimi Yu},
+           giveni={S\bibinitperiod\bibinitdelim Y\bibinitperiod}}}%
+        {{hash=98383d4c01dfa3b91b4425078fc5b8c1}{%
+           family={Kikuchi},
+           familyi={K\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=2aeeb4b04e797be015287a840edc5712}{%
+           family={Villard},
+           familyi={V\bibinitperiod},
+           given={L.},
+           giveni={L\bibinitperiod}}}%
+        {{hash=5d9dd1083c79e852ba3350a12fbf5073}{%
+           family={Takizuka},
+           familyi={T\bibinitperiod},
+           given={T.},
+           giveni={T\bibinitperiod}}}%
+        {{hash=af99bc31dc2e206cbfaebe3da20e4b03}{%
+           family={Diamond},
+           familyi={D\bibinitperiod},
+           given={P.},
+           giveni={P\bibinitperiod}}}%
+        {{hash=0ce2a2d2e41d6a3a794caf7f7165bf0c}{%
+           family={Zushi},
+           familyi={Z\bibinitperiod},
+           given={H.},
+           giveni={H\bibinitperiod}}}%
+        {{hash=ac6a13e7c3b2b0e1ab61e31514a3a208}{%
+           family={Nagasaki},
+           familyi={N\bibinitperiod},
+           given={K.},
+           giveni={K\bibinitperiod}}}%
+        {{hash=fd382652b3d35bf81a6a25f89e94cb36}{%
+           family={Duan},
+           familyi={D\bibinitperiod},
+           given={X.},
+           giveni={X\bibinitperiod}}}%
+        {{hash=c84333257e5fef7e25ef4f7a4111077c}{%
+           family={Wu},
+           familyi={W\bibinitperiod},
+           given={Y.},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=c3eddce004a21ac697b4da9b49d8930a}{%
+           family={Ivanov},
+           familyi={I\bibinitperiod},
+           given={A.\bibnamedelimi A.},
+           giveni={A\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=3347b85952162a868fad4bb8b0932f52}{%
+           family={Martynov},
+           familyi={M\bibinitperiod},
+           given={A.\bibnamedelimi A.},
+           giveni={A\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=2c9a8c12ced540e097f9db756ff77e68}{%
+           family={Poshekhonov},
+           familyi={P\bibinitperiod},
+           given={Yu\bibnamedelima Yu},
+           giveni={Y\bibinitperiod\bibinitdelim Y\bibinitperiod}}}%
+        {{hash=1d68050065327e8d5439ff64878b28bc}{%
+           family={Fasoli},
+           familyi={F\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=8819cdb3894b4faa8d32c9a0f022a2c0}{%
+           family={Sauter},
+           familyi={S\bibinitperiod},
+           given={O.},
+           giveni={O\bibinitperiod}}}%
+      }
+      \strng{namehash}{78459e45c518fe1f8d62ff16a1e85293}
+      \strng{fullhash}{75fd196be2bede826812115bac5c3cd3}
+      \strng{bibnamehash}{78459e45c518fe1f8d62ff16a1e85293}
+      \strng{authorbibnamehash}{78459e45c518fe1f8d62ff16a1e85293}
+      \strng{authornamehash}{78459e45c518fe1f8d62ff16a1e85293}
+      \strng{authorfullhash}{75fd196be2bede826812115bac5c3cd3}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The paper discusses edge stability, beta limits and power handling issues for negative triangularity tokamaks. The edge magnetohydrodynamic stability is the most crucial item for power handling. For the case of negative triangularity the edge stability picture is quite different from that for conventional positive triangularity tokamaks: the second stability access is closed for localized Mercier/ballooning modes due to the absence of a magnetic well, and nearly internal kink modes set the pedestal height limit to be weakly sensitive to diamagnetic stabilization just above the margin of the localized mode Mercier criterion violation. While a negative triangularity tokamak is thought to have a low beta limit with its magnetic hill property, it is found that plasmas with reactor-relevant values of normalized beta $\beta$N {>} 3 can be stable to global kink modes without wall stabilization with appropriate core pressure profile optimization against localized mode stability, and also with increased magnetic shear in the outer half-radius. The beta limit is set by the n = 1 mode for the resulting flat pressure profile. The wall stabilization is very inefficient due to strong coupling between external and internal modes. The n {>} 1 modes are increasingly internal when approaching the localized mode limit, and set a lower beta in the case of the peaked pressure profile leading to a Mercier unstable core. With the theoretical predictions supported by experiments, a negative triangularity tokamak would become a prospective fusion energy system with other advantages including a larger separatrix wetted area, more flexible divertor configuration design, wider trapped particle-free scrape-off layer, lower background magnetic field for internal poloidal field coils, and larger pumping conductance from the divertor room.}
+      \field{issn}{17414326}
+      \field{journaltitle}{Nuclear Fusion}
+      \field{number}{6}
+      \field{title}{{The negative triangularity tokamak: Stability limits and prospects as a fusion energy system}}
+      \field{volume}{55}
+      \field{year}{2015}
+      \verb{doi}
+      \verb 10.1088/0029-5515/55/6/063013
+      \endverb
+      \verb{file}
+      \verb :C$\backslash$:/Users/earld/AppData/Local/Mendeley Ltd./Mendeley Desktop/Downloaded/Medvedev et al. - 2015 - The negative triangularity tokamak Stability limits and prospects as a fusion energy system.pdf:pdf
+      \endverb
+      \keyw{MHD stability,power exhaust handling,tokamak}
+    \endentry
+    \entry{Miyamoto1996}{article}{}
+      \name{author}{1}{}{%
+        {{hash=dd8184a95dd6afe89a492419b0628d6f}{%
+           family={Miyamoto},
+           familyi={M\bibinitperiod},
+           given={K},
+           giveni={K\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {IOP Publishing}%
+      }
+      \strng{namehash}{dd8184a95dd6afe89a492419b0628d6f}
+      \strng{fullhash}{dd8184a95dd6afe89a492419b0628d6f}
+      \strng{bibnamehash}{dd8184a95dd6afe89a492419b0628d6f}
+      \strng{authorbibnamehash}{dd8184a95dd6afe89a492419b0628d6f}
+      \strng{authornamehash}{dd8184a95dd6afe89a492419b0628d6f}
+      \strng{authorfullhash}{dd8184a95dd6afe89a492419b0628d6f}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The loss region in the initial velocity space of the direct orbit loss ions near the plasma edge of tokamaks with the divertor configuration is studied analytically. The results of this analysis are compared with the numerical results of the loss region in the JET case obtained by Chankin and McCracken (1993). The results agree with each other semiquantitatively in several cases involving the presence of a radial electric field. A measure of the direct ion orbit loss Gamma is calculated from the given loss region in the initial velocity space for JET, JT-60U and ITER. When the initial position of an ion is located in the outside torus (r{>}Rx, where Rx is the radius at the null X point), the dependence of Gamma on the radial electric field shows the existence of a local maximum and a local minimum in the negative region of the radial electric field}
+      \field{journaltitle}{Nuclear Fusion}
+      \field{number}{7}
+      \field{title}{{Direct ion orbit loss near the plasma edge of a divertor tokamak in the presence of a radial electric field}}
+      \field{volume}{36}
+      \field{year}{1996}
+      \field{pages}{927\bibrangedash 938}
+      \range{pages}{12}
+      \verb{doi}
+      \verb 10.1088/0029-5515/36/7/i09
+      \endverb
+      \verb{file}
+      \verb :C$\backslash$:/Users/earld/AppData/Local/Mendeley Ltd./Mendeley Desktop/Downloaded/Miyamoto - 1996 - Direct ion orbit loss near the plasma edge of a divertor tokamak in the presence of a radial electric field.pdf:pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1088/0029-5515/36/7/I09 http://stacks.iop.org/0029-5515/36/i=7/a=I09
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1088/0029-5515/36/7/I09%20http://stacks.iop.org/0029-5515/36/i=7/a=I09
+      \endverb
+      \keyw{10}
+    \endentry
+    \entry{Rubilar2001}{article}{}
+      \name{author}{3}{}{%
+        {{hash=c41f5729b448cb2705d9eb345c43fa56}{%
+           family={Rubilar},
+           familyi={R\bibinitperiod},
+           given={R},
+           giveni={R\bibinitperiod}}}%
+        {{hash=65481f348b9982a9e6ce4c4ec2ae7911}{%
+           family={Stacey},
+           familyi={S\bibinitperiod},
+           given={W\bibnamedelima M},
+           giveni={W\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=23957f6e845732f6299f7fac41a38973}{%
+           family={Mandrekas},
+           familyi={M\bibinitperiod},
+           given={J},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{9c51000ffd8684423704b871175461cd}
+      \strng{fullhash}{9c51000ffd8684423704b871175461cd}
+      \strng{bibnamehash}{9c51000ffd8684423704b871175461cd}
+      \strng{authorbibnamehash}{9c51000ffd8684423704b871175461cd}
+      \strng{authornamehash}{9c51000ffd8684423704b871175461cd}
+      \strng{authorfullhash}{9c51000ffd8684423704b871175461cd}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The transmission/escape probability (TEP) method for neutral particle transport has recently been introduced and implemented for the calculation of 2-D neutral atom transport in the edge plasma and divertor regions of tokamaks. The results of an evaluation of the accuracy of the approximations made in the calculation of the basic TEP transport parameters are summarized. Comparisons of the TEP and Monte Carlo calculations for model problems using tokamak experimental geometries and for the analysis of measured neutral densities in DIII-D are presented. The TEP calculations are found to agree rather well with Monte Carlo results, for the most part, but the need for a few extensions of the basic TEP transport methodology and for inclusion of molecular effects and a better wall reflection model in the existing code is suggested by the study.}
+      \field{journaltitle}{Nuclear Fusion}
+      \field{number}{8}
+      \field{title}{{Comparison of the TEP method for neutral particle transport in the plasma edge with the Monte Carlo method}}
+      \field{volume}{41}
+      \field{year}{2001}
+      \field{pages}{1003}
+      \range{pages}{1}
+      \verb{file}
+      \verb :C$\backslash$:/Users/earld/AppData/Local/Mendeley Ltd./Mendeley Desktop/Downloaded/Rubilar, Stacey, Mandrekas - 2001 - Comparison of the TEP method for neutral particle transport in the plasma edge with the Monte Carlo.pdf:pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://stacks.iop.org/0029-5515/41/i=8/a=305
+      \endverb
+      \verb{url}
+      \verb http://stacks.iop.org/0029-5515/41/i=8/a=305
+      \endverb
+      \keyw{53}
+    \endentry
+    \entry{Stacey2004}{article}{}
+      \name{author}{1}{}{%
+        {{hash=65481f348b9982a9e6ce4c4ec2ae7911}{%
+           family={Stacey},
+           familyi={S\bibinitperiod},
+           given={W\bibnamedelima M},
+           giveni={W\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \strng{namehash}{65481f348b9982a9e6ce4c4ec2ae7911}
+      \strng{fullhash}{65481f348b9982a9e6ce4c4ec2ae7911}
+      \strng{bibnamehash}{65481f348b9982a9e6ce4c4ec2ae7911}
+      \strng{authorbibnamehash}{65481f348b9982a9e6ce4c4ec2ae7911}
+      \strng{authornamehash}{65481f348b9982a9e6ce4c4ec2ae7911}
+      \strng{authorfullhash}{65481f348b9982a9e6ce4c4ec2ae7911}
+      \field{extraname}{1}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Physics of Plasmas}
+      \field{number}{12}
+      \field{title}{{Edge pedestal structure}}
+      \field{volume}{11}
+      \field{year}{2004}
+      \field{pages}{5487\bibrangedash 5496}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1063/1.1808751
+      \endverb
+      \verb{file}
+      \verb :C$\backslash$:/Users/earld/AppData/Local/Mendeley Ltd./Mendeley Desktop/Downloaded/Stacey - 2004 - Edge pedestal structure.pdf:pdf
+      \endverb
+    \endentry
+    \entry{Stacey2017}{article}{}
+      \name{author}{1}{}{%
+        {{hash=65481f348b9982a9e6ce4c4ec2ae7911}{%
+           family={Stacey},
+           familyi={S\bibinitperiod},
+           given={W\bibnamedelima M},
+           giveni={W\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \strng{namehash}{65481f348b9982a9e6ce4c4ec2ae7911}
+      \strng{fullhash}{65481f348b9982a9e6ce4c4ec2ae7911}
+      \strng{bibnamehash}{65481f348b9982a9e6ce4c4ec2ae7911}
+      \strng{authorbibnamehash}{65481f348b9982a9e6ce4c4ec2ae7911}
+      \strng{authornamehash}{65481f348b9982a9e6ce4c4ec2ae7911}
+      \strng{authorfullhash}{65481f348b9982a9e6ce4c4ec2ae7911}
+      \field{extraname}{2}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Nuclear Fusion}
+      \field{number}{6}
+      \field{title}{{Extended fluid transport theory in the tokamak plasma edge}}
+      \field{volume}{57}
+      \field{year}{2017}
+      \field{pages}{66034}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1088/1741-4326/aa6b34
+      \endverb
+      \verb{file}
+      \verb :C$\backslash$:/Users/earld/AppData/Local/Mendeley Ltd./Mendeley Desktop/Downloaded/Stacey - 2017 - Extended fluid transport theory in the tokamak plasma edge.pdf:pdf
+      \endverb
+      \keyw{09}
+    \endentry
+    \entry{Stacey2008}{article}{}
+      \name{author}{1}{}{%
+        {{hash=65481f348b9982a9e6ce4c4ec2ae7911}{%
+           family={Stacey},
+           familyi={S\bibinitperiod},
+           given={W\bibnamedelima M},
+           giveni={W\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \strng{namehash}{65481f348b9982a9e6ce4c4ec2ae7911}
+      \strng{fullhash}{65481f348b9982a9e6ce4c4ec2ae7911}
+      \strng{bibnamehash}{65481f348b9982a9e6ce4c4ec2ae7911}
+      \strng{authorbibnamehash}{65481f348b9982a9e6ce4c4ec2ae7911}
+      \strng{authornamehash}{65481f348b9982a9e6ce4c4ec2ae7911}
+      \strng{authorfullhash}{65481f348b9982a9e6ce4c4ec2ae7911}
+      \field{extraname}{3}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Contributions to Plasma Physics}
+      \field{number}{1-3}
+      \field{title}{{Ion Particle Transport in the Tokamak Edge Plasma}}
+      \field{volume}{48}
+      \field{year}{2008}
+      \field{pages}{94\bibrangedash 98}
+      \range{pages}{5}
+      \verb{doi}
+      \verb 10.1002/ctpp.200810016
+      \endverb
+      \verb{file}
+      \verb :C$\backslash$:/Users/earld/AppData/Local/Mendeley Ltd./Mendeley Desktop/Downloaded/Stacey - 2008 - Ion Particle Transport in the Tokamak Edge Plasma.pdf:pdf
+      \endverb
+      \keyw{07}
+    \endentry
+    \entry{Stacey2004a}{article}{}
+      \name{author}{1}{}{%
+        {{hash=65481f348b9982a9e6ce4c4ec2ae7911}{%
+           family={Stacey},
+           familyi={S\bibinitperiod},
+           given={W\bibnamedelima M},
+           giveni={W\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \strng{namehash}{65481f348b9982a9e6ce4c4ec2ae7911}
+      \strng{fullhash}{65481f348b9982a9e6ce4c4ec2ae7911}
+      \strng{bibnamehash}{65481f348b9982a9e6ce4c4ec2ae7911}
+      \strng{authorbibnamehash}{65481f348b9982a9e6ce4c4ec2ae7911}
+      \strng{authornamehash}{65481f348b9982a9e6ce4c4ec2ae7911}
+      \strng{authorfullhash}{65481f348b9982a9e6ce4c4ec2ae7911}
+      \field{extraname}{4}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Abstract A new flux-gradient relation for the ion particle flux in the edge pedestal is derived from continuity and momentum balance, taking into account atomic physics, and cast in the form of a generalized ‘diffusion-pinch' transport relation. This flux-gradient relation is used to derive a new expression for a first-principles calculation of the ion density gradient scale length. ({©} 2004 WILEY-VCH Verlag GmbH {\&} Co. KGaA, Weinheim)}
+      \field{journaltitle}{Contributions to Plasma Physics}
+      \field{number}{1‐3}
+      \field{title}{{Particle transport and density gradient scale lengths in the edge pedestal}}
+      \field{volume}{44}
+      \field{year}{2004}
+      \field{pages}{100\bibrangedash 104}
+      \range{pages}{5}
+      \verb{doi}
+      \verb 10.1002/ctpp.200410014
+      \endverb
+      \verb{file}
+      \verb :C$\backslash$:/Users/earld/AppData/Local/Mendeley Ltd./Mendeley Desktop/Downloaded/Stacey - 2004 - Particle transport and density gradient scale lengths in the edge pedestal.pdf:pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://onlinelibrary.wiley.com/doi/abs/10.1002/ctpp.200410014
+      \endverb
+      \verb{url}
+      \verb https://onlinelibrary.wiley.com/doi/abs/10.1002/ctpp.200410014
+      \endverb
+    \endentry
+    \entry{Stacey2003}{article}{}
+      \name{author}{2}{}{%
+        {{hash=65481f348b9982a9e6ce4c4ec2ae7911}{%
+           family={Stacey},
+           familyi={S\bibinitperiod},
+           given={W\bibnamedelima M},
+           giveni={W\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=ead4e2ba1ce55dd8fcbe894985bc6c00}{%
+           family={Groebner},
+           familyi={G\bibinitperiod},
+           given={R\bibnamedelima J},
+           giveni={R\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Institute of Physics}%
+      }
+      \strng{namehash}{76600d30d006a9fd0403221b89ccb899}
+      \strng{fullhash}{76600d30d006a9fd0403221b89ccb899}
+      \strng{bibnamehash}{76600d30d006a9fd0403221b89ccb899}
+      \strng{authorbibnamehash}{76600d30d006a9fd0403221b89ccb899}
+      \strng{authornamehash}{76600d30d006a9fd0403221b89ccb899}
+      \strng{authorfullhash}{76600d30d006a9fd0403221b89ccb899}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{A framework has been formulated for the further development and testing of a predictive edge pedestal model. This framework combines models for the interaction of the various physical phenomena acting in the edge pedestal?transport, neutral fueling penetration, atomic physics cooling, MHD (magnetohydrodynamic) stability limit, edge density limit?to determine the pedestal widths and gradient scale lengths. Predictive models for some of these specific phenomena have been compared with DIII-D [J. L. Luxon, Nucl. Fusion 42, 614 (2002)] measurements. It was found that a neutral penetration model for the density width and a MHD model for the maximum pedestal pressure for stability against ideal pressure-driven surface modes were roughly consistent with experimental observation, but that in both cases some refinements are needed. The major impediments to implementation of a predictive edge pedestal model within the framework of this paper are the lack of knowledge of transport coefficients in the pedestal and the unavailability of a usable characterization of the state-of-the-art MHD stability-limit surface in the space of edge parameters. Efforts to remedy these and other deficiencies and to establish a predictive model for the calculation of density, temperature and pressure widths and gradients in the edge pedestal are suggested.}
+      \field{journaltitle}{Physics of Plasmas}
+      \field{number}{6}
+      \field{title}{{A framework for the development and testing of an edge pedestal model: Formulation and initial comparison with DIII-D data}}
+      \field{volume}{10}
+      \field{year}{2003}
+      \field{pages}{2412\bibrangedash 2421}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1063/1.1575233
+      \endverb
+      \verb{file}
+      \verb :C$\backslash$:/Users/earld/AppData/Local/Mendeley Ltd./Mendeley Desktop/Downloaded/Stacey, Groebner - 2003 - A framework for the development and testing of an edge pedestal model Formulation and initial comparison with.pdf:pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1063/1.1575233
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1063/1.1575233
+      \endverb
+      \keyw{09}
+    \endentry
+    \entry{Stacey1994}{article}{}
+      \name{author}{2}{}{%
+        {{hash=65481f348b9982a9e6ce4c4ec2ae7911}{%
+           family={Stacey},
+           familyi={S\bibinitperiod},
+           given={W\bibnamedelima M},
+           giveni={W\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=23957f6e845732f6299f7fac41a38973}{%
+           family={Mandrekas},
+           familyi={M\bibinitperiod},
+           given={J},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{7d181431953d99d348d360aeeb6250a0}
+      \strng{fullhash}{7d181431953d99d348d360aeeb6250a0}
+      \strng{bibnamehash}{7d181431953d99d348d360aeeb6250a0}
+      \strng{authorbibnamehash}{7d181431953d99d348d360aeeb6250a0}
+      \strng{authornamehash}{7d181431953d99d348d360aeeb6250a0}
+      \strng{authorfullhash}{7d181431953d99d348d360aeeb6250a0}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{A new computational model for neutral particle transport in the outer regions of a diverted tokamak plasma chamber is presented. The model is based on the calculation of transmission and escape probabilities using first-flight integral transport theory and the balancing of fluxes across the surfaces bounding the various regions. Both long and short mean free path regions can be handled. The complex geometry of the outer regions of a diverted tokamak can be represented accurately and economically using precomputed probabilities which depend only on the mean free path of the region. Benchmark comparisons with Monte Carlo illustrate that quite accurate results may be expected with the method}
+      \field{journaltitle}{Nuclear Fusion}
+      \field{number}{10}
+      \field{title}{{A transmission/escape probabilities model for neutral particle transport in the outer regions of a diverted tokamak}}
+      \field{volume}{34}
+      \field{year}{1994}
+      \field{pages}{1385}
+      \range{pages}{1}
+      \verb{file}
+      \verb :C$\backslash$:/Users/earld/AppData/Local/Mendeley Ltd./Mendeley Desktop/Downloaded/Stacey, Mandrekas - 1994 - A transmissionescape probabilities model for neutral particle transport in the outer regions of a diverted to.pdf:pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://stacks.iop.org/0029-5515/34/i=10/a=I07
+      \endverb
+      \verb{url}
+      \verb http://stacks.iop.org/0029-5515/34/i=10/a=I07
+      \endverb
+      \keyw{51}
+    \endentry
+    \entry{StaceySigmar1985}{article}{}
+      \name{author}{2}{}{%
+        {{hash=65481f348b9982a9e6ce4c4ec2ae7911}{%
+           family={Stacey},
+           familyi={S\bibinitperiod},
+           given={W\bibnamedelima M},
+           giveni={W\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=97af5dbdc58d65bb7113d4e45ef5dd14}{%
+           family={Sigmar},
+           familyi={S\bibinitperiod},
+           given={D\bibnamedelima J},
+           giveni={D\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Institute of Physics}%
+      }
+      \strng{namehash}{1e955ca4ceba8ff3b24b52b5613ed26b}
+      \strng{fullhash}{1e955ca4ceba8ff3b24b52b5613ed26b}
+      \strng{bibnamehash}{1e955ca4ceba8ff3b24b52b5613ed26b}
+      \strng{authorbibnamehash}{1e955ca4ceba8ff3b24b52b5613ed26b}
+      \strng{authornamehash}{1e955ca4ceba8ff3b24b52b5613ed26b}
+      \strng{authorfullhash}{1e955ca4ceba8ff3b24b52b5613ed26b}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The Physics of Fluids}
+      \field{number}{9}
+      \field{title}{{Viscous effects in a collisional tokamak plasma with strong rotation}}
+      \field{volume}{28}
+      \field{year}{1985}
+      \field{pages}{2800\bibrangedash 2807}
+      \range{pages}{8}
+      \verb{file}
+      \verb :C$\backslash$:/Users/earld/AppData/Local/Mendeley Ltd./Mendeley Desktop/Downloaded/Stacey, Sigmar - 1985 - Viscous effects in a collisional tokamak plasma with strong rotation.pdf:pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://aip.scitation.org/doi/abs/10.1063/1.865240
+      \endverb
+      \verb{url}
+      \verb https://aip.scitation.org/doi/abs/10.1063/1.865240
+      \endverb
+      \keyw{12}
+    \endentry
+    \entry{Stacey2012}{article}{}
+      \name{author}{5}{}{%
+        {{hash=65481f348b9982a9e6ce4c4ec2ae7911}{%
+           family={Stacey},
+           familyi={S\bibinitperiod},
+           given={W\bibnamedelima M},
+           giveni={W\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=fb4f1a0cfefffa33981d1e913e408976}{%
+           family={Boedo},
+           familyi={B\bibinitperiod},
+           given={J\bibnamedelima A},
+           giveni={J\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=c9e30865c50a21dc3ef66b2041f2cb9c}{%
+           family={Evans},
+           familyi={E\bibinitperiod},
+           given={T\bibnamedelima E},
+           giveni={T\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{hash=af01b333be7e028e3d18b435f113a54b}{%
+           family={Grierson},
+           familyi={G\bibinitperiod},
+           given={B\bibnamedelima A},
+           giveni={B\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=ead4e2ba1ce55dd8fcbe894985bc6c00}{%
+           family={Groebner},
+           familyi={G\bibinitperiod},
+           given={R\bibnamedelima J},
+           giveni={R\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \strng{namehash}{9e6edd294c87e3665d097dea9e561b35}
+      \strng{fullhash}{f01b02607a90d43e4faa050e0da936aa}
+      \strng{bibnamehash}{9e6edd294c87e3665d097dea9e561b35}
+      \strng{authorbibnamehash}{9e6edd294c87e3665d097dea9e561b35}
+      \strng{authornamehash}{9e6edd294c87e3665d097dea9e561b35}
+      \strng{authorfullhash}{f01b02607a90d43e4faa050e0da936aa}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Physics of Plasmas}
+      \field{number}{11}
+      \field{title}{{Intrinsic rotation produced by ion orbit loss and X-loss}}
+      \field{volume}{19}
+      \field{year}{2012}
+      \field{pages}{112503}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1063/1.4768424
+      \endverb
+      \verb{file}
+      \verb :C$\backslash$:/Users/earld/AppData/Local/Mendeley Ltd./Mendeley Desktop/Downloaded/Stacey et al. - 2012 - Intrinsic rotation produced by ion orbit loss and X-loss(2).pdf:pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://aip.scitation.org/doi/abs/10.1063/1.4768424
+      \endverb
+      \verb{url}
+      \verb https://aip.scitation.org/doi/abs/10.1063/1.4768424
+      \endverb
+      \keyw{18}
+    \endentry
+    \entry{Stacey2013}{article}{}
+      \name{author}{1}{}{%
+        {{hash=65481f348b9982a9e6ce4c4ec2ae7911}{%
+           family={Stacey},
+           familyi={S\bibinitperiod},
+           given={W.\bibnamedelimi M.},
+           giveni={W\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \strng{namehash}{65481f348b9982a9e6ce4c4ec2ae7911}
+      \strng{fullhash}{65481f348b9982a9e6ce4c4ec2ae7911}
+      \strng{bibnamehash}{65481f348b9982a9e6ce4c4ec2ae7911}
+      \strng{authorbibnamehash}{65481f348b9982a9e6ce4c4ec2ae7911}
+      \strng{authornamehash}{65481f348b9982a9e6ce4c4ec2ae7911}
+      \strng{authorfullhash}{65481f348b9982a9e6ce4c4ec2ae7911}
+      \field{extraname}{5}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The effect of ion orbit loss on the poloidal distribution of ions, energy and momentum from the plasma edge into the tokamak scrape-off layer (SOL) is analysed for a representative DIII-D (Luxon 2002 Nucl. Fusion 42 614) high-mode discharge. Ion orbit loss is found to produce a significant concentration of the fluxes of particle, energy and momentum into the outboard SOL. An intrinsic co-current rotation in the edge pedestal due to the preferential loss of counter-current ions is also found. {©} 2013 IAEA, Vienna.}
+      \field{issn}{00295515}
+      \field{journaltitle}{Nuclear Fusion}
+      \field{number}{6}
+      \field{title}{{Effect of ion orbit loss on distribution of particle, energy and momentum sources into the tokamak scrape-off layer}}
+      \field{volume}{53}
+      \field{year}{2013}
+      \verb{doi}
+      \verb 10.1088/0029-5515/53/6/063011
+      \endverb
+      \verb{file}
+      \verb :C$\backslash$:/Users/earld/AppData/Local/Mendeley Ltd./Mendeley Desktop/Downloaded/Stacey - 2013 - Effect of ion orbit loss on distribution of particle, energy and momentum sources into the tokamak scrape-off layer.pdf:pdf
+      \endverb
+    \endentry
+    \entry{Stacey2000a}{article}{}
+      \name{author}{1}{}{%
+        {{hash=65481f348b9982a9e6ce4c4ec2ae7911}{%
+           family={Stacey},
+           familyi={S\bibinitperiod},
+           given={W.\bibnamedelimi M.},
+           giveni={W\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \strng{namehash}{65481f348b9982a9e6ce4c4ec2ae7911}
+      \strng{fullhash}{65481f348b9982a9e6ce4c4ec2ae7911}
+      \strng{bibnamehash}{65481f348b9982a9e6ce4c4ec2ae7911}
+      \strng{authorbibnamehash}{65481f348b9982a9e6ce4c4ec2ae7911}
+      \strng{authornamehash}{65481f348b9982a9e6ce4c4ec2ae7911}
+      \strng{authorfullhash}{65481f348b9982a9e6ce4c4ec2ae7911}
+      \field{extraname}{6}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{A computationally efficient modelling procedure for the calculation of neutral atom densities in the plasma edge is described applied to calculate the recently measured neutral densities in DIII-D. The agreement of the calculated and measured neutral densities in the plasma edge inside the separatrix is quite good. The implications of these results for neutral transport in the plasma edge are discussed.}
+      \field{issn}{00295515}
+      \field{journaltitle}{Nuclear Fusion}
+      \field{number}{5}
+      \field{title}{{Modelling the neutral density in the edge of the DIII-D plasma}}
+      \field{volume}{40}
+      \field{year}{2000}
+      \field{pages}{965\bibrangedash 973}
+      \range{pages}{9}
+      \verb{doi}
+      \verb 10.1088/0029-5515/40/5/309
+      \endverb
+      \verb{file}
+      \verb :C$\backslash$:/Users/earld/AppData/Local/Mendeley Ltd./Mendeley Desktop/Downloaded/Stacey - 2000 - Modelling the neutral density in the edge of the DIII-D plasma(3).pdf:pdf
+      \endverb
+    \endentry
+    \entry{Stacey2019}{article}{}
+      \name{author}{1}{}{%
+        {{hash=255138955515853846321e7e7883f18b}{%
+           family={Stacey},
+           familyi={S\bibinitperiod},
+           given={Weston\bibnamedelima M},
+           giveni={W\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Taylor {\&} Francis}%
+      }
+      \strng{namehash}{255138955515853846321e7e7883f18b}
+      \strng{fullhash}{255138955515853846321e7e7883f18b}
+      \strng{bibnamehash}{255138955515853846321e7e7883f18b}
+      \strng{authorbibnamehash}{255138955515853846321e7e7883f18b}
+      \strng{authornamehash}{255138955515853846321e7e7883f18b}
+      \strng{authorfullhash}{255138955515853846321e7e7883f18b}
+      \field{extraname}{7}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Fusion Science and Technology}
+      \field{number}{4}
+      \field{title}{{A Particle-, Momentum-, and Energy-Conserving Fluid Transport Theory for the Tokamak Plasma Edge}}
+      \field{volume}{75}
+      \field{year}{2019}
+      \field{pages}{251\bibrangedash 263}
+      \range{pages}{13}
+      \verb{doi}
+      \verb 10.1080/15361055.2019.1574529
+      \endverb
+      \verb{file}
+      \verb :C$\backslash$:/Users/earld/AppData/Local/Mendeley Ltd./Mendeley Desktop/Downloaded/Stacey - 2019 - A Particle-, Momentum-, and Energy-Conserving Fluid Transport Theory for the Tokamak Plasma Edge.pdf:pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1080/15361055.2019.1574529
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1080/15361055.2019.1574529
+      \endverb
+    \endentry
+    \entry{Stacey2001b}{article}{}
+      \name{author}{1}{}{%
+        {{hash=255138955515853846321e7e7883f18b}{%
+           family={Stacey},
+           familyi={S\bibinitperiod},
+           given={Weston\bibnamedelima M},
+           giveni={W\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Institute of Physics}%
+      }
+      \strng{namehash}{255138955515853846321e7e7883f18b}
+      \strng{fullhash}{255138955515853846321e7e7883f18b}
+      \strng{bibnamehash}{255138955515853846321e7e7883f18b}
+      \strng{authorbibnamehash}{255138955515853846321e7e7883f18b}
+      \strng{authornamehash}{255138955515853846321e7e7883f18b}
+      \strng{authorfullhash}{255138955515853846321e7e7883f18b}
+      \field{extraname}{8}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Physics of Plasmas}
+      \field{number}{9}
+      \field{title}{{An edge pedestal model based on transport and atomic physics}}
+      \field{volume}{8}
+      \field{year}{2001}
+      \field{pages}{4073\bibrangedash 4079}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.1063/1.1388175
+      \endverb
+      \verb{file}
+      \verb :C$\backslash$:/Users/earld/AppData/Local/Mendeley Ltd./Mendeley Desktop/Downloaded/Stacey - 2001 - An edge pedestal model based on transport and atomic physics.pdf:pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1063/1.1388175
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1063/1.1388175
+      \endverb
+      \keyw{07}
+    \endentry
+    \entry{Stacey2020}{article}{}
+      \name{author}{1}{}{%
+        {{hash=255138955515853846321e7e7883f18b}{%
+           family={Stacey},
+           familyi={S\bibinitperiod},
+           given={Weston\bibnamedelima M},
+           giveni={W\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Taylor {\&} Francis}%
+      }
+      \strng{namehash}{255138955515853846321e7e7883f18b}
+      \strng{fullhash}{255138955515853846321e7e7883f18b}
+      \strng{bibnamehash}{255138955515853846321e7e7883f18b}
+      \strng{authorbibnamehash}{255138955515853846321e7e7883f18b}
+      \strng{authornamehash}{255138955515853846321e7e7883f18b}
+      \strng{authorfullhash}{255138955515853846321e7e7883f18b}
+      \field{extraname}{9}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{annotation}{doi: 10.1080/15361055.2019.1704595}
+      \field{journaltitle}{Fusion Science and Technology}
+      \field{number}{2}
+      \field{title}{{Radial Transport Fluxes and Distributions Determined by Requirements for Particle, Momentum, and Energy Conservation}}
+      \field{volume}{76}
+      \field{year}{2020}
+      \field{pages}{153\bibrangedash 156}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.1080/15361055.2019.1704595
+      \endverb
+      \verb{file}
+      \verb :C$\backslash$:/Users/earld/AppData/Local/Mendeley Ltd./Mendeley Desktop/Downloaded/Stacey - 2020 - Radial Transport Fluxes and Distributions Determined by Requirements for Particle, Momentum, and Energy Conservation.pdf:pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1080/15361055.2019.1704595
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1080/15361055.2019.1704595
+      \endverb
+    \endentry
+    \entry{Stacey2001c}{article}{}
+      \name{author}{3}{}{%
+        {{hash=255138955515853846321e7e7883f18b}{%
+           family={Stacey},
+           familyi={S\bibinitperiod},
+           given={Weston\bibnamedelima M},
+           giveni={W\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=550beb47d670d289f58abad8e642e0c4}{%
+           family={Mandrekas},
+           familyi={M\bibinitperiod},
+           given={John},
+           giveni={J\bibinitperiod}}}%
+        {{hash=8aea1150f443848ffab6933c5c510f60}{%
+           family={Rubilar},
+           familyi={R\bibinitperiod},
+           given={Robert},
+           giveni={R\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Taylor {\&} Francis}%
+      }
+      \strng{namehash}{1e024b2de2cefb99375e3d68ec6c99b0}
+      \strng{fullhash}{1e024b2de2cefb99375e3d68ec6c99b0}
+      \strng{bibnamehash}{1e024b2de2cefb99375e3d68ec6c99b0}
+      \strng{authorbibnamehash}{1e024b2de2cefb99375e3d68ec6c99b0}
+      \strng{authornamehash}{1e024b2de2cefb99375e3d68ec6c99b0}
+      \strng{authorfullhash}{1e024b2de2cefb99375e3d68ec6c99b0}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Fusion Science and Technology}
+      \field{number}{1}
+      \field{title}{{Interface Current Integral Transport Methods for the Calculation of Neutral Atom Transport in the Edge Region of Fusion Plasmas}}
+      \field{volume}{40}
+      \field{year}{2001}
+      \field{pages}{66\bibrangedash 78}
+      \range{pages}{13}
+      \verb{doi}
+      \verb 10.13182/FST01-A181
+      \endverb
+      \verb{file}
+      \verb :C$\backslash$:/Users/earld/AppData/Local/Mendeley Ltd./Mendeley Desktop/Downloaded/Stacey, Mandrekas, Rubilar - 2001 - Interface Current Integral Transport Methods for the Calculation of Neutral Atom Transport in the Ed.pdf:pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.13182/FST01-A181
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.13182/FST01-A181
+      \endverb
+      \keyw{54}
+    \endentry
+    \entry{Wilks2016}{article}{}
+      \name{author}{2}{}{%
+        {{hash=d3945735593e7487bcdabb936b801338}{%
+           family={Wilks},
+           familyi={W\bibinitperiod},
+           given={T\bibnamedelima M},
+           giveni={T\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=65481f348b9982a9e6ce4c4ec2ae7911}{%
+           family={Stacey},
+           familyi={S\bibinitperiod},
+           given={W\bibnamedelima M},
+           giveni={W\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \strng{namehash}{125e551e9a97bac31b671d34f944d330}
+      \strng{fullhash}{125e551e9a97bac31b671d34f944d330}
+      \strng{bibnamehash}{125e551e9a97bac31b671d34f944d330}
+      \strng{authorbibnamehash}{125e551e9a97bac31b671d34f944d330}
+      \strng{authornamehash}{125e551e9a97bac31b671d34f944d330}
+      \strng{authorfullhash}{125e551e9a97bac31b671d34f944d330}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Physics of Plasmas}
+      \field{number}{12}
+      \field{title}{{Improvements to an ion orbit loss calculation in the tokamak edge}}
+      \field{volume}{23}
+      \field{year}{2016}
+      \field{pages}{122505}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1063/1.4968219
+      \endverb
+      \verb{file}
+      \verb :C$\backslash$:/Users/earld/AppData/Local/Mendeley Ltd./Mendeley Desktop/Downloaded/Wilks, Stacey - 2016 - Improvements to an ion orbit loss calculation in the tokamak edge.pdf:pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://aip.scitation.org/doi/abs/10.1063/1.4968219
+      \endverb
+      \verb{url}
+      \verb http://aip.scitation.org/doi/abs/10.1063/1.4968219
+      \endverb
+      \keyw{17,plasma beam injection heating,plasma boundary laye}
+    \endentry
+    \entry{Zhang2006}{article}{}
+      \name{author}{3}{}{%
+        {{hash=c780051600b2f2cfe2f937ec02dc1fb9}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Dingkang},
+           giveni={D\bibinitperiod}}}%
+        {{hash=23957f6e845732f6299f7fac41a38973}{%
+           family={Mandrekas},
+           familyi={M\bibinitperiod},
+           given={J},
+           giveni={J\bibinitperiod}}}%
+        {{hash=65481f348b9982a9e6ce4c4ec2ae7911}{%
+           family={Stacey},
+           familyi={S\bibinitperiod},
+           given={W\bibnamedelima M},
+           giveni={W\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \strng{namehash}{6b0751cec6e047fe974524fc4d06e288}
+      \strng{fullhash}{6b0751cec6e047fe974524fc4d06e288}
+      \strng{bibnamehash}{6b0751cec6e047fe974524fc4d06e288}
+      \strng{authorbibnamehash}{6b0751cec6e047fe974524fc4d06e288}
+      \strng{authornamehash}{6b0751cec6e047fe974524fc4d06e288}
+      \strng{authorfullhash}{6b0751cec6e047fe974524fc4d06e288}
+      \field{sortinit}{Z}
+      \field{sortinithash}{96892c0b0a36bb8557c40c49813d48b3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Higher order approximations, which take into account the effects of angular anisotropy, spatial nonuniformity and energy dependence of the distribution of neutral particles, have been developed and implemented to extend the range of validity of the transmission and escape probabilities (TEP) method for the calculation of neutral particle transport in plasmas. Comparisons with Monte Carlo calculations of model test problems and DIII-D [J. Luxon, Nucl. Fusion, 42, 614 (2002)] L- and H-mode discharges show that these new extensions significantly improve the accuracy and extend the range of validity of the TEP methodology.}
+      \field{journaltitle}{Physics of Plasmas}
+      \field{number}{6}
+      \field{title}{{Higher order approximations of the transmission and escape probability method for neutral particle transport in edge plasmas}}
+      \field{volume}{13}
+      \field{year}{2006}
+      \field{pages}{62509}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1063/1.2212934
+      \endverb
+      \verb{file}
+      \verb :C$\backslash$:/Users/earld/AppData/Local/Mendeley Ltd./Mendeley Desktop/Downloaded/Zhang, Mandrekas, Stacey - 2006 - Higher order approximations of the transmission and escape probability method for neutral particle tra.pdf:pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://aip.scitation.org/doi/abs/10.1063/1.2212934
+      \endverb
+      \verb{url}
+      \verb https://aip.scitation.org/doi/abs/10.1063/1.2212934
+      \endverb
+      \keyw{56}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
